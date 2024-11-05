@@ -1,0 +1,426 @@
+[
+    {
+        "name": "CIVICOPTION_MILITARY",
+        "era": "Ancient era",
+        "uniques": [ "Adopt [CIVIC_TRADITIONAL_MILITARY] <hidden from users>" ],
+        "civilopediaText": [],
+        "policies": [
+            {
+                "name": "CIVIC_TRADITIONAL_MILITARY",
+                "row": 1,
+                "column": 1,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "Unavailable <after adopting [CIVIC_PACIFISM]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_LIGHT_SHIP_DOCTRINE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_CAPITAL_SHIP_DOCTRINE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_SQUADRON_DOCTRINE]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_TRADITIONAL_MILITARY_STRATEGY" },
+                    { "text": "CIVIC_TRADITIONAL_MILITARY_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_PACIFISM",
+                "row": 1,
+                "column": 3,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "[+15]% [Production] [in your cities]",
+                    "[-1] Unit Supply per [3] population [in your cities]",
+                    "Unavailable <before discovering [TECH_HAPPY_2]>",
+                    "Unavailable <after adopting [CIVIC_TRADITIONAL_MILITARY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_LIGHT_SHIP_DOCTRINE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_CAPITAL_SHIP_DOCTRINE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_SQUADRON_DOCTRINE]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_PACIFISM_STRATEGY" },
+                    { "text": "CIVIC_PACIFISM_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_LIGHT_SHIP_DOCTRINE",
+                "row": 1,
+                "column": 5,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "Comment [CIVIC_LIGHT_SHIP_DOCTRINE_HELP]",
+                    "[Gold] cost of purchasing [UNIT_DESTROYER_I] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_DESTROYER_II] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_DESTROYER_III] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_CRUISER_I] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_CRUISER_II] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_CRUISER_III] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "Unavailable <before discovering [TECH_MILITARY_3]>",
+                    "Unavailable <after adopting [CIVIC_TRADITIONAL_MILITARY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_PACIFISM]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_CAPITAL_SHIP_DOCTRINE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_SQUADRON_DOCTRINE]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_LIGHT_SHIP_DOCTRINE_STRATEGY" },
+                    { "text": "CIVIC_LIGHT_SHIP_DOCTRINE_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_CAPITAL_SHIP_DOCTRINE",
+                "row": 2,
+                "column": 2,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "Comment [CIVIC_CAPITAL_SHIP_DOCTRINE_HELP]",
+                    "[Gold] cost of purchasing [UNIT_BATTLESHIP_I] units [-20]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_BATTLESHIP_II] units [-20]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_BATTLESHIP_III] units [-20]% <in [in your cities] cities> <hidden from users>",
+                    "Unavailable <before discovering [TECH_MILITARY_5]>",
+                    "Unavailable <after adopting [CIVIC_TRADITIONAL_MILITARY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_PACIFISM]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_LIGHT_SHIP_DOCTRINE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_SQUADRON_DOCTRINE]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_CAPITAL_SHIP_DOCTRINE_STRATEGY" },
+                    { "text": "CIVIC_CAPITAL_SHIP_DOCTRINE_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_SQUADRON_DOCTRINE",
+                "row": 2,
+                "column": 4,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "Comment [CIVIC_SQUADRON_DOCTRINE_HELP]",
+                    "[Gold] cost of purchasing [UNIT_CARRIER_I] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_CARRIER_II] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_CARRIER_III] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_SPACE_FIGHTER_I] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_SPACE_FIGHTER_II] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_SPACE_FIGHTER_III] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_SPACE_BOMBER_I] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_SPACE_BOMBER_II] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "[Gold] cost of purchasing [UNIT_SPACE_BOMBER_III] units [-10]% <in [in your cities] cities> <hidden from users>",
+                    "Unavailable <before discovering [TECH_MILITARY_6]>",
+                    "Unavailable <after adopting [CIVIC_TRADITIONAL_MILITARY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_PACIFISM]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_LIGHT_SHIP_DOCTRINE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_CAPITAL_SHIP_DOCTRINE]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_SQUADRON_DOCTRINE_STRATEGY" },
+                    { "text": "CIVIC_SQUADRON_DOCTRINE_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVICOPTION_MILITARY Complete",
+                "uniques": [ "Will not be displayed in Civilopedia", "Comment [Only able to select one civic at a time]" ]
+            }
+        ]
+    },
+    {
+        "name": "CIVICOPTION_GOVERNMENT",
+        "era": "Ancient era",
+        "uniques": [ "Adopt [CIVIC_FRONTIER] <hidden from users>" ],
+        "civilopediaText": [],
+        "policies": [
+            {
+                "name": "CIVIC_FRONTIER",
+                "row": 1,
+                "column": 1,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "Unavailable <after adopting [CIVIC_MONARCHY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_DEMOCRACY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_TECHNOCRACY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_POLICE_STATE]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_FRONTIER_STRATEGY" },
+                    { "text": "CIVIC_FRONTIER_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_MONARCHY",
+                "row": 1,
+                "column": 3,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "[+50]% [Gold] [in capital]",
+                    "[+50]% [Production] [in capital]",
+                    "Unavailable <before discovering [TECH_INDUSTRY_2]>",
+                    "Unavailable <after adopting [CIVIC_FRONTIER]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_DEMOCRACY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_TECHNOCRACY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_POLICE_STATE]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_MONARCHY_STRATEGY" },
+                    { "text": "CIVIC_MONARCHY_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_DEMOCRACY",
+                "row": 1,
+                "column": 5,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "[+3 Happiness] <in cities with at least [5] [Population]>",
+                    "Unavailable <before discovering [TECH_HAPPY_3]>",
+                    "Unavailable <after adopting [CIVIC_FRONTIER]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_MONARCHY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_TECHNOCRACY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_POLICE_STATE]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_DEMOCRACY_STRATEGY" },
+                    { "text": "CIVIC_DEMOCRACY_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_TECHNOCRACY",
+                "row": 2,
+                "column": 2,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "[+15]% [Science] [in your cities]",
+                    "Unavailable <before discovering [TECH_INDUSTRY_3]>",
+                    "Unavailable <after adopting [CIVIC_FRONTIER]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_MONARCHY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_DEMOCRACY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_POLICE_STATE]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_TECHNOCRACY_STRATEGY" },
+                    { "text": "CIVIC_TECHNOCRACY_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_POLICE_STATE",
+                "row": 2,
+                "column": 4,
+                "uniques": [
+                    "Comment [UPKEEP_HIGH]",
+                    "[-1 Gold] per [2] population [in your cities]",
+                    "[+10]% Production when constructing [Military] units [in your cities]",
+                    "[+12]% [Happiness] [in your cities] <when at war>",
+                    "Unavailable <before discovering [TECH_MILITARY_4]>",
+                    "Unavailable <after adopting [CIVIC_FRONTIER]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_MONARCHY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_DEMOCRACY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_TECHNOCRACY]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_POLICE_STATE_STRATEGY" },
+                    { "text": "CIVIC_POLICE_STATE_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVICOPTION_GOVERNMENT Complete",
+                "uniques": [ "Will not be displayed in Civilopedia", "Comment [Only able to select one civic at a time]" ]
+            }
+        ]
+    },
+    {
+        "name": "CIVICOPTION_LABOR",
+        "era": "Ancient era",
+        "uniques": [ "Adopt [CIVIC_DEFAULT_LABOR] <hidden from users>" ],
+        "civilopediaText": [],
+        "policies": [
+            {
+                "name": "CIVIC_DEFAULT_LABOR",
+                "row": 1,
+                "column": 2,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "Unavailable <after adopting [CIVIC_MECHANIZED_WORKFORCE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_SLAVE_STATE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_UTOPIA]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_DEFAULT_LABOR_STRATEGY" },
+                    { "text": "CIVIC_DEFAULT_LABOR_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_MECHANIZED_WORKFORCE",
+                "row": 1,
+                "column": 4,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "[+10]% [Production] [in your cities]",
+                    "[+1 Happiness] <in cities with at least [5] [Population]>",
+                    "Unavailable <before discovering [TECH_INDUSTRY_5]>",
+                    "Unavailable <after adopting [CIVIC_DEFAULT_LABOR]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_SLAVE_STATE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_UTOPIA]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_MECHANIZED_WORKFORCE_STRATEGY" },
+                    { "text": "CIVIC_MECHANIZED_WORKFORCE_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_SLAVE_STATE",
+                "row": 2,
+                "column": 1,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "[+20]% [Production] [in your cities]",
+                    "[-10]% [Food] [in your cities]",
+                    "Unavailable <before discovering [TECH_MILITARY_7]>",
+                    "Unavailable <after adopting [CIVIC_DEFAULT_LABOR]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_MECHANIZED_WORKFORCE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_UTOPIA]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_SLAVE_STATE_STRATEGY" },
+                    { "text": "CIVIC_SLAVE_STATE_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_UTOPIA",
+                "row": 2,
+                "column": 5,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "[-15]% [Production] [in your cities]",
+                    "[-15]% [Gold] [in your cities]",
+                    "Comment [+1[Food] per Planet]",
+                    "[+1 Food] from every [Colonist of Terra]  <in [in your cities] cities> <hidden from users>",
+                    "[+1 Food] from every [Colonist of Desert] <in [in your cities] cities> <hidden from users>",
+                    "[+1 Food] from every [Colonist of Toxic] <in [in your cities] cities> <hidden from users>",
+                    "[+1 Food] from every [Colonist of Agua] <in [in your cities] cities> <hidden from users>",
+                    "Unavailable <before discovering [TECH_HAPPY_9]>",
+                    "Unavailable <after adopting [CIVIC_DEFAULT_LABOR]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_MECHANIZED_WORKFORCE]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_SLAVE_STATE]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_UTOPIA_STRATEGY" },
+                    { "text": "CIVIC_UTOPIA_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVICOPTION_LABOR Complete",
+                "uniques": [ "Will not be displayed in Civilopedia", "Comment [Only able to select one civic at a time]" ]
+            }
+        ]
+    },
+    {
+        "name": "CIVICOPTION_ECONOMY",
+        "era": "Ancient era",
+        "uniques": [ "Adopt [CIVIC_SIMPLE_ECONOMY] <hidden from users>" ],
+        "civilopediaText": [],
+        "policies": [
+            {
+                "name": "CIVIC_SIMPLE_ECONOMY",
+                "row": 1,
+                "column": 2,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "Unavailable <after adopting [CIVIC_INDUSTRIALISM]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_GREEN_ECONOMY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_PLANNED_ECONOMY]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_SIMPLE_ECONOMY_STRATEGY" },
+                    { "text": "CIVIC_SIMPLE_ECONOMY_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_INDUSTRIALISM",
+                "row": 1,
+                "column": 4,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "Provides [-6] [BONUS_HEALTH]",
+                    "[+15]% [Production] [in your cities]",
+                    "Unavailable <before discovering [TECH_INDUSTRY_7]>",
+                    "Unavailable <after adopting [CIVIC_SIMPLE_ECONOMY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_GREEN_ECONOMY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_PLANNED_ECONOMY]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_INDUSTRIALISM_STRATEGY" },
+                    { "text": "CIVIC_INDUSTRIALISM_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_GREEN_ECONOMY",
+                "row": 2,
+                "column": 1,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "[-20]% [Gold] [in your cities]",
+                    "[+20]% [Food] [in your cities]",
+                    "Unavailable <before discovering [TECH_HAPPY_7]>",
+                    "Unavailable <after adopting [CIVIC_SIMPLE_ECONOMY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_INDUSTRIALISM]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_PLANNED_ECONOMY]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_GREEN_ECONOMY_STRATEGY" },
+                    { "text": "CIVIC_GREEN_ECONOMY_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVIC_PLANNED_ECONOMY",
+                "row": 2,
+                "column": 5,
+                "uniques": [
+                    "Comment [UPKEEP_LOW]",
+                    "[-1 Gold] per [6] population [in your cities]",
+                    "[+1 Happiness] <in cities following our religion>",
+                    "[-10]% [Production] [in your cities]",
+                    "Unavailable <before discovering [TECH_MILITARY_10]>",
+                    "Unavailable <after adopting [CIVIC_SIMPLE_ECONOMY]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_INDUSTRIALISM]> <hidden from users>",
+                    "Unavailable <after adopting [CIVIC_GREEN_ECONOMY]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "CIVIC_PLANNED_ECONOMY_STRATEGY" },
+                    { "text": "CIVIC_PLANNED_ECONOMY_PEDIA" },
+                    { "text": "Trigger Revolution to select a new Civic", "link": "Wonders/Revolution" }
+                ]
+            },
+            {
+                "name": "CIVICOPTION_ECONOMY Complete",
+                "uniques": [ "Will not be displayed in Civilopedia", "Comment [Only able to select one civic at a time]" ]
+            }
+        ]
+    }
+]

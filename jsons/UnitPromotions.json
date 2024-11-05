@@ -1,0 +1,489 @@
+[
+    {
+        "name": "PROMOTION_WEAPONS I",
+        "prerequisites": [],
+        "uniques": [ "[+10]% Strength" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE",
+            "UNITCOMBAT_SQUADRON"
+        ]
+    },
+    {
+        "name": "PROMOTION_WEAPONS II",
+        "prerequisites": [ "PROMOTION_WEAPONS I" ],
+        "uniques": [ "[+10]% Strength" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE",
+            "UNITCOMBAT_SQUADRON"
+        ]
+    },
+    {
+        "name": "PROMOTION_WEAPONS III",
+        "prerequisites": [ "PROMOTION_WEAPONS II" ],
+        "uniques": [ "[+10]% Strength" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE",
+            "UNITCOMBAT_SQUADRON"
+        ]
+    },
+    {
+        "name": "PROMOTION_COMPUTERS I",
+        "prerequisites": [],
+        "uniques": [ "[+10]% Strength" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE",
+            "UNITCOMBAT_SQUADRON"
+        ]
+    },
+    {
+        "name": "PROMOTION_COMPUTERS II",
+        "prerequisites": [ "PROMOTION_COMPUTERS I" ],
+        "uniques": [ "[+10]% Strength" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE",
+            "UNITCOMBAT_SQUADRON"
+        ]
+    },
+    {
+        "name": "PROMOTION_COMPUTERS III",
+        "prerequisites": [ "PROMOTION_COMPUTERS II" ],
+        "uniques": [ "[+10]% Strength" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE",
+            "UNITCOMBAT_SQUADRON"
+        ]
+    },
+    {
+        "name": "PROMOTION_ARMOR I",
+        "prerequisites": [],
+        "uniques": [ "[+15]% Strength <when fighting in [TILE_ASTEROIDS] tiles> <when defending>" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_ARMOR II",
+        "prerequisites": [ "PROMOTION_ARMOR I" ],
+        "uniques": [ "[+15]% Strength <when fighting in [TILE_ASTEROIDS] tiles> <when defending>" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_ARMOR III",
+        "prerequisites": [ "PROMOTION_ARMOR II" ],
+        "uniques": [ "[+15]% Strength <when fighting in [TILE_ASTEROIDS] tiles> <when defending>" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_SHIELDS I",
+        "prerequisites": [],
+        "uniques": [ "[+1]% to Flank Attack bonuses" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_SHIELDS II",
+        "prerequisites": [ "PROMOTION_SHIELDS I" ],
+        "uniques": [ "[+1]% to Flank Attack bonuses" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_SHIELDS III",
+        "prerequisites": [ "PROMOTION_SHIELDS II" ],
+        "uniques": [ "[+1]% to Flank Attack bonuses" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_ENGINES I",
+        "prerequisites": [ "PROMOTION_WEAPONS II", "PROMOTION_ARMOR II" ],
+        "uniques": [ "[+1] Movement" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP"
+        ]
+    },
+    {
+        "name": "PROMOTION_ENGINES II",
+        "prerequisites": [
+            "PROMOTION_ENGINES I",
+            "PROMOTION_WEAPONS III",
+            "PROMOTION_ARMOR III"
+        ],
+        "uniques": [ "[+1] Movement" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP"
+        ]
+    },
+    {
+        "name": "PROMOTION_ENGINES III",
+        "prerequisites": [ "PROMOTION_ENGINES II" ],
+        "uniques": [ "[+1] Movement" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP"
+        ]
+    },
+    {
+        "name": "PROMOTION_SENSORS I",
+        "prerequisites": [ "PROMOTION_WEAPONS I", "PROMOTION_ARMOR I" ],
+        "uniques": [ "[+1] Sight" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_SENSORS II",
+        "prerequisites": [
+            "PROMOTION_SENSORS I",
+            "PROMOTION_WEAPONS II",
+            "PROMOTION_ARMOR II"
+        ],
+        "uniques": [ "[+1] Sight" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_SENSORS III",
+        "prerequisites": [
+            "PROMOTION_SENSORS II",
+            "PROMOTION_WEAPONS III",
+            "PROMOTION_ARMOR III"
+        ],
+        "uniques": [ "[+1] Sight" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_SCOUT_II_SIGHT",
+        "prerequisites": [],
+        "uniques": [ "[+1] Sight" ],
+        "unitTypes": []
+    },
+    {
+        "name": "PROMOTION_SCOUT_III_SIGHT",
+        "prerequisites": [],
+        "uniques": [ "[+2] Sight" ],
+        "unitTypes": []
+    },
+    {
+        "name": "PROMOTION_ADVANCED_BRIDGE",
+        "prerequisites": [ "PROMOTION_SENSORS III" ],
+        "uniques": [ "[+1] additional attacks per turn" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_STORAGE_BAY I",
+        "prerequisites": [ "PROMOTION_REPAIR_STAFF I" ],
+        "uniques": [ "Can carry [1] extra [Air] units" ],
+        "unitTypes": [ "UNITCOMBAT_CARRIER_SHIP", "UNITCOMBAT_STARBASE" ]
+    },
+    {
+        "name": "PROMOTION_STORAGE_BAY II",
+        "prerequisites": [ "PROMOTION_STORAGE_BAY I" ],
+        "uniques": [ "Can carry [1] extra [Air] units" ],
+        "unitTypes": [ "UNITCOMBAT_CARRIER_SHIP", "UNITCOMBAT_STARBASE" ]
+    },
+    {
+        "name": "PROMOTION_STORAGE_BAY III",
+        "prerequisites": [ "PROMOTION_STORAGE_BAY II" ],
+        "uniques": [ "Can carry [1] extra [Air] units" ],
+        "unitTypes": [ "UNITCOMBAT_CARRIER_SHIP", "UNITCOMBAT_STARBASE" ]
+    },
+    {
+        "name": "PROMOTION_STEALTH I",
+        "prerequisites": [],
+        "uniques": [ "Invisible to non-adjacent units <with [15]% chance>" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_STEALTH II",
+        "prerequisites": [ "PROMOTION_STEALTH I" ],
+        "uniques": [ "Invisible to non-adjacent units <with [15]% chance>" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_STEALTH III",
+        "prerequisites": [ "PROMOTION_STEALTH II" ],
+        "uniques": [ "Invisible to non-adjacent units <with [15]% chance>" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_REPAIR_STAFF I",
+        "prerequisites": [],
+        "uniques": [ "All adjacent units heal [+10] HP when healing" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_REPAIR_STAFF II",
+        "prerequisites": [ "PROMOTION_REPAIR_STAFF I" ],
+        "uniques": [ "All adjacent units heal [+10] HP when healing" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_REPAIR_STAFF III",
+        "prerequisites": [ "PROMOTION_REPAIR_STAFF II" ],
+        "uniques": [ "All adjacent units heal [+10] HP when healing" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_REPAIR_FACILITIES",
+        "prerequisites": [ "PROMOTION_REPAIR_STAFF III" ],
+        "uniques": [ "All adjacent units heal [+10] HP when healing", "May heal outside of friendly territory" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_TRAINED_OFFICERS",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_ASSAULT_MUNITIONS",
+        "prerequisites": [],
+        "uniques": [ "[+20]% Strength <vs cities>" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_TRACKING_EQUIPMENT",
+        "prerequisites": [],
+        "uniques": [ "[+20]% Strength <in [in all cities] cities> <when defending>" ],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_SQUADRON_TACTICS",
+        "prerequisites": [],
+        "uniques": [ "[+25]% Strength <vs [UNITCOMBAT_SQUADRON] units>" ],
+        "unitTypes": [
+            "UNITCOMBAT_SQUADRON",
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_LIGHT_SHIP_TACTICS",
+        "prerequisites": [],
+        "uniques": [ "[+20]% Strength <vs [UNITCOMBAT_LIGHT_SHIP] units>" ],
+        "unitTypes": [
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_CAPITAL_SHIP_TACTICS",
+        "prerequisites": [],
+        "uniques": [ "[+25]% Strength <vs [UNITCOMBAT_CAPITAL_SHIP] units>" ],
+        "unitTypes": [
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_CARRIER_SHIP_TACTICS",
+        "prerequisites": [],
+        "uniques": [ "[+25]% Strength <vs [UNITCOMBAT_CARRIER_SHIP] units>" ],
+        "unitTypes": [
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    },
+    {
+        "name": "PROMOTION_RANGE I",
+        "prerequisites": [ "PROMOTION_WEAPONS II", "PROMOTION_COMPUTERS II" ],
+        "uniques": [],
+        "unitTypes": [ "UNITCOMBAT_SQUADRON" ]
+    },
+    {
+        "name": "PROMOTION_RANGE II",
+        "prerequisites": [ "PROMOTION_RANGE I" ],
+        "uniques": [],
+        "unitTypes": [ "UNITCOMBAT_SQUADRON" ]
+    },
+    {
+        "name": "PROMOTION_INTERCEPTION I",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": [ "UNITCOMBAT_SQUADRON", "UNITCOMBAT_LIGHT_SHIP" ]
+    },
+    {
+        "name": "PROMOTION_INTERCEPTION II",
+        "prerequisites": [ "PROMOTION_INTERCEPTION I" ],
+        "uniques": [],
+        "unitTypes": [ "UNITCOMBAT_SQUADRON", "UNITCOMBAT_LIGHT_SHIP" ]
+    },
+    {
+        "name": "PROMOTION_ACE",
+        "prerequisites": [ "PROMOTION_WEAPONS III", "PROMOTION_COMPUTERS III" ],
+        "uniques": [],
+        "unitTypes": [ "UNITCOMBAT_SQUADRON" ]
+    },
+    {
+        "name": "PROMOTION_LEADER",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": [
+            "UNITCOMBAT_RECON",
+            "UNITCOMBAT_LIGHT_SHIP",
+            "UNITCOMBAT_CAPITAL_SHIP",
+            "UNITCOMBAT_CARRIER_SHIP",
+            "UNITCOMBAT_STARBASE"
+        ]
+    }
+]

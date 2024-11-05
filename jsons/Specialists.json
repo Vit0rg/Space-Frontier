@@ -1,0 +1,10 @@
+[
+    {
+        "name": "COLONIST",
+        "food": 2,
+        "gold": 2,
+        "production": 2,
+        "science": 1,
+        "color": [ 0, 0, 255 ]
+    }
+]

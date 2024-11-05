@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Ancient era",
+        "researchAgreementCost": 100,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "UNIT_CONSTRUCT_SHIP",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 0,
+        "startPercent": 0,
+		"embarkDefense": 8,
+         "iconRGB": [60, 110, 240]
+    },
+    {
+        "name": "Tier 1",
+        "researchAgreementCost": 100,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "UNIT_CONSTRUCT_SHIP",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 0,
+        "startPercent": 0,
+		"embarkDefense": 8,
+         "iconRGB": [60, 110, 240]
+    },
+    {
+        "name": "Tier 2",
+        "researchAgreementCost": 100,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "UNIT_CONSTRUCT_SHIP",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 0,
+        "startPercent": 0,
+		"embarkDefense": 8,
+         "iconRGB": [60, 110, 240]
+    },
+    {
+        "name": "Tier 3",
+        "researchAgreementCost": 100,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "UNIT_CONSTRUCT_SHIP",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 0,
+        "startPercent": 0,
+		"embarkDefense": 8,
+         "iconRGB": [60, 110, 240]
+    },
+    {
+        "name": "Tier 4",
+        "researchAgreementCost": 100,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "UNIT_CONSTRUCT_SHIP",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 0,
+        "startPercent": 0,
+		"embarkDefense": 8,
+         "iconRGB": [60, 110, 240]
+    },
+    {
+        "name": "Tier 5",
+        "researchAgreementCost": 100,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "UNIT_CONSTRUCT_SHIP",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 0,
+        "startPercent": 0,
+		"embarkDefense": 8,
+         "iconRGB": [60, 110, 240]
+    },
+    {
+        "name": "Tier 6",
+        "researchAgreementCost": 100,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "UNIT_CONSTRUCT_SHIP",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 0,
+        "startPercent": 0,
+		"embarkDefense": 8,
+         "iconRGB": [60, 110, 240]
+    },
+    {
+        "name": "Tier 7",
+        "researchAgreementCost": 100,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "UNIT_CONSTRUCT_SHIP",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 0,
+        "startPercent": 0,
+		"embarkDefense": 8,
+         "iconRGB": [60, 110, 240]
+    },
+]

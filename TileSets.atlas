@@ -1,0 +1,370 @@
+
+TileSets.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Crosshair
+  rotate: false
+  xy: 1060, 215
+  size: 174, 125
+  orig: 174, 125
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Highlight
+  rotate: false
+  xy: 4, 808
+  size: 284, 212
+  orig: 284, 212
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland
+  rotate: false
+  xy: 4, 568
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_SPACE
+  rotate: false
+  xy: 4, 568
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_AGUA_L
+  rotate: false
+  xy: 4, 304
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_AGUA_M
+  rotate: false
+  xy: 4, 304
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_AGUA_S
+  rotate: false
+  xy: 4, 304
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_DEFAULT
+  rotate: false
+  xy: 4, 40
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_DESERT_L
+  rotate: false
+  xy: 296, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_DESERT_M
+  rotate: false
+  xy: 296, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_DESERT_S
+  rotate: false
+  xy: 296, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_TERRA_L
+  rotate: false
+  xy: 560, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_TERRA_M
+  rotate: false
+  xy: 560, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_TERRA_S
+  rotate: false
+  xy: 560, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_TOXIC_L
+  rotate: false
+  xy: 824, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_TOXIC_M
+  rotate: false
+  xy: 824, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_COLONY_TOXIC_S
+  rotate: false
+  xy: 824, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_EXTRACTION_FACILITY
+  rotate: false
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/IMPROVEMENT_GOODY_HUT
+  rotate: false
+  xy: 1060, 348
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_ASTEROIDS
+  rotate: false
+  xy: 1088, 788
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_BLACK_HOLE
+  rotate: false
+  xy: 1352, 788
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_GRAVITY_FIELD
+  rotate: false
+  xy: 1352, 788
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_DAMAGE_ZONE
+  rotate: false
+  xy: 1616, 788
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_NEBULA
+  rotate: false
+  xy: 268, 524
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_NEBULA2
+  rotate: false
+  xy: 268, 284
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_NEBULA3
+  rotate: false
+  xy: 532, 524
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_ORBIT
+  rotate: false
+  xy: 268, 44
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET
+  rotate: false
+  xy: 1880, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET2
+  rotate: false
+  xy: 1260, 476
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_DESERT_L
+  rotate: false
+  xy: 1260, 476
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_DESERT_M
+  rotate: false
+  xy: 1260, 476
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_DESERT_S
+  rotate: false
+  xy: 1260, 476
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET3
+  rotate: false
+  xy: 1060, 143
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_AGUA_L
+  rotate: false
+  xy: 1060, 143
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_AGUA_M
+  rotate: false
+  xy: 1060, 143
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_AGUA_S
+  rotate: false
+  xy: 1060, 143
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET4
+  rotate: false
+  xy: 1880, 884
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_TOXIC_L
+  rotate: false
+  xy: 1880, 884
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_TOXIC_M
+  rotate: false
+  xy: 1880, 884
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_TOXIC_S
+  rotate: false
+  xy: 1880, 884
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET5
+  rotate: false
+  xy: 1952, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_TERRA_L
+  rotate: false
+  xy: 1952, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_TERRA_M
+  rotate: false
+  xy: 1952, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_PLANET_TERRA_S
+  rotate: false
+  xy: 1952, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_RADIATION_CLOUD
+  rotate: false
+  xy: 532, 284
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_STAR
+  rotate: false
+  xy: 796, 524
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_STAR2
+  rotate: false
+  xy: 532, 44
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_STAR3
+  rotate: false
+  xy: 796, 284
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_STAR4
+  rotate: false
+  xy: 796, 44
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TILE_SUPERNOVA
+  rotate: false
+  xy: 1088, 548
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/zzzHil
+  rotate: false
+  xy: 1352, 548
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/zzzTILE_PLANET_DEFAULT
+  rotate: false
+  xy: 1616, 548
+  size: 256, 232
+  orig: 256, 232
+  offset: 0, 0
+  index: -1

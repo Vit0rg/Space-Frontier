@@ -1,0 +1,273 @@
+
+TechIcons.png
+size: 2048, 256
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+TechIcons/TECH_HAPPY_0
+  rotate: false
+  xy: 4, 20
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_HAPPY_1
+  rotate: false
+  xy: 212, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_HAPPY_10
+  rotate: false
+  xy: 1840, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_HAPPY_11
+  rotate: false
+  xy: 968, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_HAPPY_2
+  rotate: false
+  xy: 320, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_HAPPY_3
+  rotate: false
+  xy: 428, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_HAPPY_4
+  rotate: false
+  xy: 536, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_HAPPY_5
+  rotate: false
+  xy: 1724, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_HAPPY_6
+  rotate: false
+  xy: 644, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_HAPPY_7
+  rotate: false
+  xy: 1782, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_HAPPY_8
+  rotate: false
+  xy: 752, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_HAPPY_9
+  rotate: false
+  xy: 860, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_0
+  rotate: false
+  xy: 1076, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_1
+  rotate: false
+  xy: 1184, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_10
+  rotate: false
+  xy: 1898, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_11
+  rotate: false
+  xy: 320, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_12
+  rotate: false
+  xy: 1956, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_2
+  rotate: false
+  xy: 1292, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_3
+  rotate: false
+  xy: 1400, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_4
+  rotate: false
+  xy: 1508, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_5
+  rotate: false
+  xy: 1616, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_6
+  rotate: false
+  xy: 1724, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_7
+  rotate: false
+  xy: 1832, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_8
+  rotate: false
+  xy: 1940, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_INDUSTRY_9
+  rotate: false
+  xy: 212, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_0
+  rotate: false
+  xy: 428, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_1
+  rotate: false
+  xy: 536, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_10
+  rotate: false
+  xy: 1400, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_11
+  rotate: false
+  xy: 1508, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_12
+  rotate: false
+  xy: 1616, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_2
+  rotate: false
+  xy: 644, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_3
+  rotate: false
+  xy: 1724, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_4
+  rotate: false
+  xy: 752, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_5
+  rotate: false
+  xy: 860, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_6
+  rotate: false
+  xy: 968, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_7
+  rotate: false
+  xy: 1076, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_8
+  rotate: false
+  xy: 1184, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/TECH_MILITARY_9
+  rotate: false
+  xy: 1292, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  

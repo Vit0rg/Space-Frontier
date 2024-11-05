@@ -1,0 +1,480 @@
+[
+  {
+    "columnNumber": 0,
+    "era": "Ancient era",
+    "techCost": 70,
+    "buildingCost": 70,
+    "wonderCost": 70,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_0",
+        "row": 2,
+        "prerequisites": [],
+        "civilopediaText": [{ "text": "TECH_MILITARY_0_STRATEGY" }, { "text": "TECH_MILITARY_0_PEDIA" }],
+        "quote": "TECH_QUOTE_30"
+      },
+       {
+        "name": "TECH_INDUSTRY_0",
+        "row": 5,
+        "prerequisites": [],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_0_STRATEGY" }, { "text": "TECH_INDUSTRY_0_PEDIA" }],
+        "quote": "TECH_QUOTE_35"
+      },
+     {
+        "name": "TECH_HAPPY_0",
+        "row": 8,
+        "prerequisites": [],
+        "civilopediaText": [{ "text": "TECH_HAPPY_0_STRATEGY" }, { "text": "TECH_HAPPY_0_PEDIA" }],
+        "quote": "TECH_QUOTE_26"
+      }
+    ]
+  },
+  {
+    "columnNumber": 1,
+    "era": "Tier 1",
+    "techCost": 120,
+    "buildingCost": 120,
+    "wonderCost": 120,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_1",
+        "row": 2,
+        "prerequisites": [
+          "TECH_MILITARY_0"
+        ],
+        "civilopediaText": [{ "text": "TECH_MILITARY_1_STRATEGY" }, { "text": "TECH_MILITARY_1_PEDIA" }],
+        "quote": "TECH_QUOTE_32"
+      },
+      {
+        "name": "TECH_INDUSTRY_1",
+        "row": 4,
+        "prerequisites": [
+          "TECH_INDUSTRY_0"
+        ],
+		"uniques": [
+		  "Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
+		],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_1_STRATEGY" }, { "text": "TECH_INDUSTRY_1_PEDIA" }],
+        "quote": "TECH_QUOTE_29"
+      },
+      {
+        "name": "TECH_HAPPY_1",
+        "row": 7,
+        "prerequisites": [
+          "TECH_HAPPY_0"
+        ],
+		"uniques": [
+		  "Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
+		],
+        "civilopediaText": [{ "text": "TECH_HAPPY_1_STRATEGY" }, { "text": "TECH_HAPPY_1_PEDIA" }],
+        "quote": "TECH_QUOTE_0"
+      }
+    ]
+  },
+  {
+    "columnNumber": 2,
+    "era": "Tier 1",
+    "techCost": 200,
+    "buildingCost": 200,
+    "wonderCost": 200,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_2",
+        "row": 2,
+        "prerequisites": [
+          "TECH_MILITARY_1"
+        ],
+        "civilopediaText": [{ "text": "TECH_MILITARY_2_STRATEGY" }, { "text": "TECH_MILITARY_2_PEDIA" }],
+        "quote": "TECH_QUOTE_24"
+      },
+      {
+        "name": "TECH_INDUSTRY_2",
+        "row": 6,
+        "prerequisites": [
+          "TECH_INDUSTRY_0"
+        ],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_2_STRATEGY" }, { "text": "TECH_INDUSTRY_2_PEDIA" }],
+        "quote": "TECH_QUOTE_23"
+      },
+      {
+        "name": "TECH_HAPPY_2",
+        "row": 9,
+        "prerequisites": [
+          "TECH_HAPPY_0"
+        ],
+        "civilopediaText": [{ "text": "TECH_HAPPY_2_STRATEGY" }, { "text": "TECH_HAPPY_2_PEDIA" }],
+        "quote": "TECH_QUOTE_27"
+      }
+    ]
+  },
+  {
+    "columnNumber": 3,
+    "era": "Tier 2",
+    "techCost": 300,
+    "buildingCost": 300,
+    "wonderCost": 300,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_3",
+        "row": 2,
+        "prerequisites": [
+          "TECH_MILITARY_2"
+        ],
+		"uniques": [
+		  "Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
+		],
+        "civilopediaText": [{ "text": "TECH_MILITARY_3_STRATEGY" }, { "text": "TECH_MILITARY_3_PEDIA" }],
+        "quote": "TECH_QUOTE_28"
+      },
+      {
+        "name": "TECH_INDUSTRY_3",
+        "row": 5,
+        "prerequisites": [
+          "TECH_INDUSTRY_1",
+          "TECH_INDUSTRY_2"
+        ],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_3_STRATEGY" }, { "text": "TECH_INDUSTRY_3_PEDIA" }],
+        "quote": "TECH_QUOTE_34"
+      },
+      {
+        "name": "TECH_HAPPY_3",
+        "row": 8,
+        "prerequisites": [
+          "TECH_HAPPY_1",
+          "TECH_HAPPY_2"
+        ],
+		"uniques": [
+		  "Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
+		],
+        "civilopediaText": [{ "text": "TECH_HAPPY_3_STRATEGY" }, { "text": "TECH_HAPPY_3_PEDIA" }],
+        "quote": "TECH_QUOTE_25"
+      }
+    ]
+  },
+  {
+    "columnNumber": 4,
+    "era": "Tier 2",
+    "techCost": 500,
+    "buildingCost": 500,
+    "wonderCost": 500,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_4",
+        "row": 2,
+        "prerequisites": [
+          "TECH_MILITARY_3"
+        ],
+        "civilopediaText": [{ "text": "TECH_MILITARY_4_STRATEGY" }, { "text": "TECH_MILITARY_4_PEDIA" }],
+        "quote": "TECH_QUOTE_17"
+      },
+      {
+        "name": "TECH_INDUSTRY_4",
+        "row": 5,
+        "prerequisites": [
+          "TECH_INDUSTRY_3",
+          "TECH_MILITARY_3"
+        ],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_4_STRATEGY" }, { "text": "TECH_INDUSTRY_4_PEDIA" }],
+        "quote": "TECH_QUOTE_18"
+      },
+      {
+        "name": "TECH_HAPPY_4",
+        "row": 7,
+        "prerequisites": [
+          "TECH_INDUSTRY_3",
+          "TECH_HAPPY_3"
+        ],
+        "civilopediaText": [{ "text": "TECH_HAPPY_4_STRATEGY" }, { "text": "TECH_HAPPY_4_PEDIA" }],
+        "quote": "TECH_QUOTE_31"
+      },
+    ]
+  },
+  {
+    "columnNumber": 5,
+    "era": "Tier 3",
+    "techCost": 800,
+    "buildingCost": 800,
+    "wonderCost": 800,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_5",
+        "row": 2,
+        "prerequisites": [
+          "TECH_MILITARY_4"
+        ],
+        "civilopediaText": [{ "text": "TECH_MILITARY_5_STRATEGY" }, { "text": "TECH_MILITARY_5_PEDIA" }],
+        "quote": "TECH_QUOTE_21"
+      },
+      {
+        "name": "TECH_INDUSTRY_5",
+        "row": 5,
+        "prerequisites": [
+          "TECH_INDUSTRY_4",
+          "TECH_HAPPY_4"
+        ],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_5_STRATEGY" }, { "text": "TECH_INDUSTRY_5_PEDIA" }],
+        "quote": "TECH_QUOTE_16"
+      },
+      {
+        "name": "TECH_HAPPY_5",
+        "row": 8,
+        "prerequisites": [
+          "TECH_HAPPY_4"
+        ],
+		"uniques": [
+		  "Gain enough Faith for a Pantheon <if no other Civilization has researched this>"
+		],
+        "civilopediaText": [{ "text": "TECH_HAPPY_5_STRATEGY" }, { "text": "TECH_HAPPY_5_PEDIA" }],
+        "quote": "TECH_QUOTE_4"
+      }
+    ]
+  },
+  {
+    "columnNumber": 6,
+    "era": "Tier 3",
+    "techCost": 1200,
+    "buildingCost": 1200,
+    "wonderCost": 1200,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_6",
+        "row": 2,
+        "prerequisites": [
+          "TECH_MILITARY_5",
+          "TECH_INDUSTRY_5"
+        ],
+        "civilopediaText": [{ "text": "TECH_MILITARY_6_STRATEGY" }, { "text": "TECH_MILITARY_6_PEDIA" }],
+        "quote": "TECH_QUOTE_19"
+      },
+      {
+        "name": "TECH_INDUSTRY_6",
+        "row": 5,
+        "prerequisites": [
+          "TECH_INDUSTRY_5"
+        ],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_6_STRATEGY" }, { "text": "TECH_INDUSTRY_6_PEDIA" }],
+        "quote": "TECH_QUOTE_1"
+      },
+      {
+        "name": "TECH_HAPPY_6",
+        "row": 8,
+        "prerequisites": [
+          "TECH_HAPPY_5"
+        ],
+        "civilopediaText": [{ "text": "TECH_HAPPY_6_STRATEGY" }, { "text": "TECH_HAPPY_6_PEDIA" }],
+        "quote": "TECH_QUOTE_15"
+      }
+    ]
+  },
+  {
+    "columnNumber": 7,
+    "era": "Tier 4",
+    "techCost": 1700,
+    "buildingCost": 1700,
+    "wonderCost": 1700,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_7",
+        "row": 2,
+        "prerequisites": [
+          "TECH_MILITARY_6"
+        ],
+        "civilopediaText": [{ "text": "TECH_MILITARY_7_STRATEGY" }, { "text": "TECH_MILITARY_7_PEDIA" }],
+        "quote": "TECH_QUOTE_14"
+      },
+      {
+        "name": "TECH_INDUSTRY_7",
+        "row": 5,
+        "prerequisites": [
+          "TECH_INDUSTRY_6"
+        ],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_7_STRATEGY" }, { "text": "TECH_INDUSTRY_7_PEDIA" }],
+        "quote": "TECH_QUOTE_3"
+      },
+      {
+        "name": "TECH_HAPPY_7",
+        "row": 8,
+        "prerequisites": [
+          "TECH_HAPPY_6",
+          "TECH_INDUSTRY_6"
+        ],
+        "civilopediaText": [{ "text": "TECH_HAPPY_7_STRATEGY" }, { "text": "TECH_HAPPY_7_PEDIA" }],
+        "quote": "TECH_QUOTE_2"
+      }
+    ]
+  },
+  {
+    "columnNumber": 8,
+    "era": "Tier 4",
+    "techCost": 2000,
+    "buildingCost": 2000,
+    "wonderCost": 2000,
+    "techs": [
+      {
+        "name": "TECH_INDUSTRY_8",
+        "row": 5,
+        "prerequisites": [
+		  "TECH_INDUSTRY_7"
+		],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_8_STRATEGY" }, { "text": "TECH_INDUSTRY_8_PEDIA" }],
+        "quote": "TECH_QUOTE_6"
+      },
+      {
+        "name": "TECH_HAPPY_8",
+        "row": 7,
+        "prerequisites": [
+          "TECH_HAPPY_7"
+        ],
+        "civilopediaText": [{ "text": "TECH_HAPPY_8_STRATEGY" }, { "text": "TECH_HAPPY_8_PEDIA" }],
+        "quote": "TECH_QUOTE_9"
+      },
+      {
+        "name": "TECH_HAPPY_9",
+        "row": 8,
+        "prerequisites": [
+          "TECH_HAPPY_7"
+        ],
+        "civilopediaText": [{ "text": "TECH_HAPPY_9_STRATEGY" }, { "text": "TECH_HAPPY_9_PEDIA" }],
+        "quote": "TECH_QUOTE_22"
+      }
+    ]
+  },
+  {
+    "columnNumber": 9,
+    "era": "Tier 5",
+    "techCost": 2300,
+    "buildingCost": 2300,
+    "wonderCost": 2300,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_9",
+        "row": 1,
+        "prerequisites": [
+          "TECH_MILITARY_7"
+        ],
+        "civilopediaText": [{ "text": "TECH_MILITARY_9_STRATEGY" }, { "text": "TECH_MILITARY_9_PEDIA" }],
+        "quote": "TECH_QUOTE_5"
+      },
+      {
+        "name": "TECH_MILITARY_8",
+        "row": 2,
+        "prerequisites": [
+          "TECH_MILITARY_7",
+          "TECH_INDUSTRY_8"
+        ],
+        "civilopediaText": [{ "text": "TECH_MILITARY_8_STRATEGY" }, { "text": "TECH_MILITARY_8_PEDIA" }],
+        "quote": "TECH_QUOTE_13"
+      },
+      {
+        "name": "TECH_INDUSTRY_9",
+        "row": 5,
+        "prerequisites": [
+          "TECH_INDUSTRY_8",
+          "TECH_HAPPY_8"
+        ],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_9_STRATEGY" }, { "text": "TECH_INDUSTRY_9_PEDIA" }],
+        "quote": "TECH_QUOTE_7"
+      }
+    ]
+  },
+  {
+    "columnNumber": 10,
+    "era": "Tier 5",
+    "techCost": 2800,
+    "buildingCost": 2800,
+    "wonderCost": 2800,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_10",
+        "row": 2,
+        "prerequisites": [
+          "TECH_MILITARY_8"
+        ],
+        "civilopediaText": [{ "text": "TECH_MILITARY_10_STRATEGY" }, { "text": "TECH_MILITARY_10_PEDIA" }],
+        "quote": "TECH_QUOTE_11"
+      },
+      {
+        "name": "TECH_INDUSTRY_10",
+        "row": 5,
+        "prerequisites": [
+          "TECH_INDUSTRY_9"
+        ],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_10_STRATEGY" }, { "text": "TECH_INDUSTRY_10_PEDIA" }],
+        "quote": "TECH_QUOTE_8"
+      },
+      {
+        "name": "TECH_HAPPY_10",
+        "row": 8,
+        "prerequisites": [
+          "TECH_HAPPY_9"
+        ],
+        "civilopediaText": [{ "text": "TECH_HAPPY_10_STRATEGY" }, { "text": "TECH_HAPPY_10_PEDIA" }],
+        "quote": "TECH_QUOTE_10"
+      }
+    ]
+  },
+  {
+    "columnNumber": 11,
+    "era": "Tier 6",
+    "techCost": 3500,
+    "buildingCost": 3500,
+    "wonderCost": 3500,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_11",
+        "row": 2,
+        "prerequisites": [
+          "TECH_MILITARY_10"
+        ],
+        "civilopediaText": [{ "text": "TECH_MILITARY_11_STRATEGY" }, { "text": "TECH_MILITARY_11_PEDIA" }],
+        "quote": "TECH_QUOTE_33"
+      },
+      {
+        "name": "TECH_INDUSTRY_11",
+        "row": 5,
+        "prerequisites": [
+          "TECH_INDUSTRY_10"
+        ],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_11_STRATEGY" }, { "text": "TECH_INDUSTRY_11_PEDIA" }],
+        "quote": "TECH_QUOTE_12"
+      },
+      {
+        "name": "TECH_HAPPY_11",
+        "row": 8,
+        "prerequisites": [
+          "TECH_HAPPY_10"
+        ],
+        "civilopediaText": [{ "text": "TECH_HAPPY_11_STRATEGY" }, { "text": "TECH_HAPPY_11_PEDIA" }],
+        "quote": "TECH_QUOTE_20"
+      }
+    ]
+  },
+  {
+    "columnNumber": 12,
+    "era": "Tier 6",
+    "techCost": 4000,
+    "buildingCost": 4000,
+    "wonderCost": 4000,
+    "techs": [
+      {
+        "name": "TECH_MILITARY_12",
+        "row": 2,
+        "prerequisites": [
+          "TECH_MILITARY_11"
+        ],
+        "civilopediaText": [{ "text": "TECH_MILITARY_12_STRATEGY" }, { "text": "TECH_MILITARY_12_PEDIA" }],
+        "quote": "TECH_QUOTE_36"
+      },
+      {
+        "name": "TECH_INDUSTRY_12",
+        "row": 6,
+        "prerequisites": [
+		  "TECH_INDUSTRY_11",
+          "TECH_HAPPY_11"
+        ],
+        "civilopediaText": [{ "text": "TECH_INDUSTRY_12_STRATEGY" }, { "text": "TECH_INDUSTRY_12_PEDIA" }, { "text": "TECH_INDUSTRY_12_PEDIA" }],
+        "quote": "TECH_QUOTE_37"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+    "useColorAsBaseTerrain": "true",
+    //"useSummaryImages": "true",
+    "fallbackTileSet": null
+	"tileScales": {
+		"TILE_PLANET":0.7,
+		"TILE_PLANET_AGUA_S":0.4,
+		"TILE_PLANET_AGUA_M":0.5,
+		"TILE_PLANET_AGUA_L":0.6,
+		"TILE_PLANET_DESERT_S":0.4,
+		"TILE_PLANET_DESERT_M":0.5,
+		"TILE_PLANET_DESERT_L":0.6,
+		"TILE_PLANET_TERRA_S":0.4,
+		"TILE_PLANET_TERRA_M":0.5,
+		"TILE_PLANET_TERRA_L":0.6,
+		"TILE_PLANET_TOXIC_S":0.4,
+		"TILE_PLANET_TOXIC_M":0.5,
+		"TILE_PLANET_TOXIC_L":0.6,
+		
+    }
+}

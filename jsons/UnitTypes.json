@@ -1,0 +1,35 @@
+[
+	{
+		"name": "UNITCOMBAT_CIVILIAN", // NONE
+		"movementType": "Land"
+	},
+	//Military
+	{
+		"name": "UNITCOMBAT_LIGHT_SHIP",
+		"movementType": "Land"
+	},
+	{
+		"name": "UNITCOMBAT_SQUADRON",
+		"movementType": "Air"
+	},
+	{
+		"name": "UNITCOMBAT_MISSILE",
+		"movementType": "Air"
+	},
+	{
+		"name": "UNITCOMBAT_RECON",
+		"movementType": "Land"
+	},
+	{
+		"name": "UNITCOMBAT_CARRIER_SHIP",
+		"movementType": "Land"
+	},
+	{
+		"name": "UNITCOMBAT_CAPITAL_SHIP",
+		"movementType": "Land"
+	},
+	{
+		"name": "UNITCOMBAT_STARBASE",
+		"movementType": "Land" // DOMAIN_IMMOBILE
+	},
+]

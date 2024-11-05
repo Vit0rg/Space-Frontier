@@ -1,0 +1,957 @@
+[
+    {
+        "name": "UNIT_COLONY_SHIP",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_COLONY_SHIP", "imageSize": 192 },
+            { "text": "UNIT_COLONY_SHIP_STRATEGY" },
+            { "text": "UNIT_COLONY_SHIP_PEDIA" }
+        ],
+        "requiredTech": "TECH_HAPPY_0",
+        "cost": 120,
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Founds a new city <by consuming this unit> <in [TILE_STAR] tiles>",
+            "Excess Food converted to Production when under construction",
+            "Requires at least [2] population"
+        ]
+    },
+    {
+        "name": "UNIT_CONSTRUCT_SHIP",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_CONSTRUCT_SHIP", "imageSize": 192 },
+            { "text": "UNIT_CONSTRUCT_SHIP_STRATEGY" },
+            { "text": "UNIT_CONSTRUCT_SHIP_PEDIA" }
+        ],
+        "requiredTech": "TECH_HAPPY_2",
+        "cost": 60,
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [ "Can build [Land] improvements on tiles", "Automation is a primary action" ]
+    },
+    {
+        "name": "UNIT_PLANETARY_DEFENSE_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_PLANETARY_DEFENSE_I", "imageSize": 192 },
+            { "text": "UNIT_PLANETARY_DEFENSE_STRATEGY" },
+            { "text": "UNIT_PLANETARY_DEFENSE_PEDIA" }
+        ],
+        "requiredTech": "TECH_HAPPY_0",
+        "cost": 15,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 1,
+        "strength": 4,
+        "upgradesTo": "UNIT_PLANETARY_DEFENSE_II",
+        "uniques": [ "[200]% Strength <in [in all cities] cities> <when defending>" ]
+    },
+    {
+        "name": "UNIT_PLANETARY_DEFENSE_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_PLANETARY_DEFENSE_II", "imageSize": 192 },
+            { "text": "UNIT_PLANETARY_DEFENSE_STRATEGY" },
+            { "text": "UNIT_PLANETARY_DEFENSE_PEDIA" }
+        ],
+        "requiredTech": "TECH_HAPPY_4",
+        "cost": 30,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 1,
+        "strength": 6,
+        "upgradesTo": "UNIT_PLANETARY_DEFENSE_III",
+        "uniques": [ "[200]% Strength <in [in all cities] cities> <when defending>" ]
+    },
+    {
+        "name": "UNIT_PLANETARY_DEFENSE_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_PLANETARY_DEFENSE_III", "imageSize": 192 },
+            { "text": "UNIT_PLANETARY_DEFENSE_STRATEGY" },
+            { "text": "UNIT_PLANETARY_DEFENSE_PEDIA" }
+        ],
+        "requiredTech": "TECH_HAPPY_8",
+        "cost": 60,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 2,
+        "strength": 9,
+        "uniques": [ "[200]% Strength <in [in all cities] cities> <when defending>" ]
+    },
+    {
+        "name": "UNIT_INVASION_SHIP_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_INVASION_SHIP_I", "imageSize": 192 },
+            { "text": "UNIT_INVASION_SHIP_STRATEGY" },
+            { "text": "UNIT_INVASION_SHIP_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_0",
+        "cost": 22,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 1,
+        "strength": 4,
+        "upgradesTo": "UNIT_INVASION_SHIP_II",
+        "uniques": [
+            "[200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "[+15]% to Flank Attack bonuses"
+        ]
+    },
+    {
+        "name": "UNIT_INVASION_SHIP_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_INVASION_SHIP_II", "imageSize": 192 },
+            { "text": "UNIT_INVASION_SHIP_STRATEGY" },
+            { "text": "UNIT_INVASION_SHIP_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_5",
+        "cost": 45,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 1,
+        "strength": 6,
+        "upgradesTo": "UNIT_INVASION_SHIP_III",
+        "uniques": [
+            "[200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "[+15]% to Flank Attack bonuses"
+        ]
+    },
+    {
+        "name": "UNIT_INVASION_SHIP_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_INVASION_SHIP_III", "imageSize": 192 },
+            { "text": "UNIT_INVASION_SHIP_STRATEGY" },
+            { "text": "UNIT_INVASION_SHIP_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_8",
+        "cost": 90,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 2,
+        "strength": 9,
+        "uniques": [
+            "[200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "[+15]% to Flank Attack bonuses"
+        ]
+    },
+    {
+        "name": "UNIT_SPACE_FIGHTER_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_SPACE_FIGHTER_I", "imageSize": 192 },
+            { "text": "UNIT_SPACE_FIGHTER_STRATEGY" },
+            { "text": "UNIT_SPACE_FIGHTER_PEDIA" }
+        ],
+        "requiredTech": "TECH_HAPPY_1",
+        "cost": 30,
+        "unitType": "UNITCOMBAT_SQUADRON",
+        "movement": 1,
+        "strength": 4,
+        "upgradesTo": "UNIT_SPACE_FIGHTER_II",
+        "uniques": [
+            "[60]% chance to intercept air attacks <vs [UNITCOMBAT_SQUADRON] units>",
+            "[+200]% Strength <vs [UNITCOMBAT_SQUADRON] units>",
+            "Destroys tile improvements when attacking"
+        ]
+    },
+    {
+        "name": "UNIT_SPACE_FIGHTER_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_SPACE_FIGHTER_II", "imageSize": 192 },
+            { "text": "UNIT_SPACE_FIGHTER_STRATEGY" },
+            { "text": "UNIT_SPACE_FIGHTER_PEDIA" }
+        ],
+        "requiredTech": "TECH_HAPPY_5",
+        "cost": 60,
+        "unitType": "UNITCOMBAT_SQUADRON",
+        "movement": 1,
+        "strength": 6,
+        "upgradesTo": "UNIT_SPACE_FIGHTER_III",
+        "uniques": [
+            "[65]% chance to intercept air attacks <vs [UNITCOMBAT_SQUADRON] units>",
+            "[+200]% Strength <vs [UNITCOMBAT_SQUADRON] units>",
+            "Destroys tile improvements when attacking"
+        ]
+    },
+    {
+        "name": "UNIT_SPACE_FIGHTER_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_SPACE_FIGHTER_III", "imageSize": 192 },
+            { "text": "UNIT_SPACE_FIGHTER_STRATEGY" },
+            { "text": "UNIT_SPACE_FIGHTER_PEDIA" }
+        ],
+        "requiredTech": "TECH_HAPPY_9",
+        "cost": 120,
+        "unitType": "UNITCOMBAT_SQUADRON",
+        "movement": 1,
+        "strength": 9,
+        "uniques": [
+            "[70]% chance to intercept air attacks <vs [UNITCOMBAT_SQUADRON] units>",
+            "[+200]% Strength <vs [UNITCOMBAT_SQUADRON] units>",
+            "Destroys tile improvements when attacking"
+        ]
+    },
+    {
+        "name": "UNIT_SPACE_BOMBER_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_SPACE_BOMBER_I", "imageSize": 192 },
+            { "text": "UNIT_SPACE_BOMBER_STRATEGY" },
+            { "text": "UNIT_SPACE_BOMBER_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_2",
+        "cost": 45,
+        "unitType": "UNITCOMBAT_SQUADRON",
+        "movement": 1,
+        "strength": 6,
+        "upgradesTo": "UNIT_SPACE_BOMBER_II",
+        "uniques": [ "Destroys tile improvements when attacking" ]
+    },
+    {
+        "name": "UNIT_SPACE_BOMBER_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_SPACE_BOMBER_II", "imageSize": 192 },
+            { "text": "UNIT_SPACE_BOMBER_STRATEGY" },
+            { "text": "UNIT_SPACE_BOMBER_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_6",
+        "cost": 90,
+        "unitType": "UNITCOMBAT_SQUADRON",
+        "movement": 1,
+        "strength": 10,
+        "upgradesTo": "UNIT_SPACE_BOMBER_III",
+        "uniques": [ "Destroys tile improvements when attacking" ]
+    },
+    {
+        "name": "UNIT_SPACE_BOMBER_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_SPACE_BOMBER_III", "imageSize": 192 },
+            { "text": "UNIT_SPACE_BOMBER_STRATEGY" },
+            { "text": "UNIT_SPACE_BOMBER_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_10",
+        "cost": 180,
+        "unitType": "UNITCOMBAT_SQUADRON",
+        "movement": 1,
+        "strength": 15,
+        "uniques": [ "Destroys tile improvements when attacking" ]
+    },
+    {
+        "name": "UNIT_NUCLEAR_MISSILE",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_NUCLEAR_MISSILE", "imageSize": 192 },
+            { "text": "UNIT_NUCLEAR_MISSILE_STRATEGY" },
+            { "text": "UNIT_NUCLEAR_MISSILE_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_8",
+        "cost": 700,
+        "unitType": "UNITCOMBAT_MISSILE",
+        "movement": 1,
+        "uniques": [
+            "Self-destructs when attacking",
+            "Nuclear weapon of Strength [1]",
+            "Blast radius [2]",
+            "Consumes [2] [BONUS_URANIUM]"
+        ]
+    },
+    {
+        "name": "UNIT_MISSILE_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_MISSILE_I", "imageSize": 192 },
+            { "text": "UNIT_GUIDED_MISSILE_STRATEGY" },
+            { "text": "UNIT_GUIDED_MISSILE_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_1",
+        "cost": 10,
+        "unitType": "UNITCOMBAT_MISSILE",
+        "movement": 1,
+        "strength": 3,
+        "upgradesTo": "UNIT_MISSILE_II",
+        "uniques": [
+            "Cannot be intercepted <with [75]% chance>",
+            "Withdraws before melee combat <with [100]% chance>",
+            "Self-destructs when attacking",
+            "Destroys tile improvements when attacking"
+        ]
+    },
+    {
+        "name": "UNIT_MISSILE_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_MISSILE_II", "imageSize": 192 },
+            { "text": "UNIT_GUIDED_MISSILE_STRATEGY" },
+            { "text": "UNIT_GUIDED_MISSILE_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_5",
+        "cost": 20,
+        "unitType": "UNITCOMBAT_MISSILE",
+        "movement": 1,
+        "strength": 5,
+        "upgradesTo": "UNIT_MISSILE_III",
+        "uniques": [
+            "Cannot be intercepted <with [75]% chance>",
+            "Withdraws before melee combat <with [100]% chance>",
+            "Self-destructs when attacking",
+            "Destroys tile improvements when attacking"
+        ]
+    },
+    {
+        "name": "UNIT_MISSILE_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_MISSILE_III", "imageSize": 192 },
+            { "text": "UNIT_GUIDED_MISSILE_STRATEGY" },
+            { "text": "UNIT_GUIDED_MISSILE_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_9",
+        "cost": 40,
+        "unitType": "UNITCOMBAT_MISSILE",
+        "movement": 1,
+        "strength": 7,
+        "uniques": [
+            "Cannot be intercepted <with [75]% chance>",
+            "Withdraws before melee combat <with [100]% chance>",
+            "Self-destructs when attacking",
+            "Destroys tile improvements when attacking"
+        ]
+    },
+    {
+        "name": "UNIT_SCOUT_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_SCOUT_I", "imageSize": 192 },
+            { "text": "UNIT_SCOUT_STRATEGY_II" },
+            { "text": "UNIT_SCOUT_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_0",
+        "cost": 25,
+        "unitType": "UNITCOMBAT_RECON",
+        "movement": 1,
+        "strength": 2,
+        "upgradesTo": "UNIT_SCOUT_II",
+        "uniques": [
+            "Can see invisible [All] units",
+            "May upgrade to [UNIT_DESTROYER_I] through ruins-like effects",
+            "Cannot attack"
+        ],
+        "promotions": [ "PROMOTION_SENSORS I" ]
+    },
+    {
+        "name": "UNIT_SCOUT_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_SCOUT_II", "imageSize": 192 },
+            { "text": "UNIT_SCOUT_STRATEGY_II" },
+            { "text": "UNIT_SCOUT_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_4",
+        "cost": 50,
+        "unitType": "UNITCOMBAT_RECON",
+        "movement": 2,
+        "strength": 3,
+        "upgradesTo": "UNIT_SCOUT_III",
+        "uniques": [
+            "Can see invisible [All] units",
+            "May upgrade to [UNIT_DESTROYER_II] through ruins-like effects",
+            "Cannot attack"
+        ],
+        "promotions": [ "PROMOTION_SENSORS I" ]
+    },
+    {
+        "name": "UNIT_SCOUT_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_SCOUT_III", "imageSize": 192 },
+            { "text": "UNIT_SCOUT_STRATEGY_II" },
+            { "text": "UNIT_SCOUT_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_8",
+        "cost": 100,
+        "unitType": "UNITCOMBAT_RECON",
+        "movement": 2,
+        "strength": 4,
+        "uniques": [
+            "Can see invisible [All] units",
+            "May upgrade to [UNIT_DESTROYER_III] through ruins-like effects",
+            "Cannot attack"
+        ],
+        "promotions": [ "PROMOTION_SENSORS I", "PROMOTION_SENSORS II" ]
+    },
+    {
+        "name": "UNIT_STEALTH_SHIP_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_STEALTH_SHIP_I", "imageSize": 192 },
+            { "text": "UNIT_STEALTH_SHIP_STRATEGY_2" },
+            { "text": "UNIT_STEALTH_SHIP_PEDIA_2" }
+        ],
+        "requiredTech": "TECH_MILITARY_2",
+        "cost": 90,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 2,
+        "strength": 6,
+        "upgradesTo": "UNIT_STEALTH_SHIP_II",
+        "uniques": [
+            "Invisible to non-adjacent units",
+            "Can see invisible [All] units",
+            "Unable to capture cities",
+            "May enter foreign tiles without open borders"
+        ]
+    },
+    {
+        "name": "UNIT_STEALTH_SHIP_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_STEALTH_SHIP_II", "imageSize": 192 },
+            { "text": "UNIT_STEALTH_SHIP_STRATEGY_2" },
+            { "text": "UNIT_STEALTH_SHIP_PEDIA_2" }
+        ],
+        "requiredTech": "TECH_MILITARY_6",
+        "cost": 180,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 2,
+        "strength": 9,
+        "upgradesTo": "UNIT_STEALTH_SHIP_III",
+        "uniques": [
+            "Invisible to non-adjacent units",
+            "Can see invisible [All] units",
+            "Unable to capture cities",
+            "May enter foreign tiles without open borders"
+        ]
+    },
+    {
+        "name": "UNIT_STEALTH_SHIP_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_STEALTH_SHIP_III", "imageSize": 192 },
+            { "text": "UNIT_STEALTH_SHIP_STRATEGY_2" },
+            { "text": "UNIT_STEALTH_SHIP_PEDIA_2" }
+        ],
+        "requiredTech": "TECH_MILITARY_10",
+        "cost": 360,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 3,
+        "strength": 14,
+        "uniques": [
+            "Invisible to non-adjacent units",
+            "Can see invisible [All] units",
+            "Unable to capture cities",
+            "May enter foreign tiles without open borders"
+        ]
+    },
+    {
+        "name": "UNIT_DESTROYER_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_DESTROYER_I", "imageSize": 192 },
+            { "text": "UNIT_DESTROYER_STRATEGY" },
+            { "text": "UNIT_DESTROYER_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_1",
+        "cost": 50,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 2,
+        "strength": 6,
+        "upgradesTo": "UNIT_DESTROYER_II",
+        "uniques": [
+            "[30]% chance to intercept air attacks <vs [UNITCOMBAT_SQUADRON] units>",
+            "[+100]% Strength <vs [UNITCOMBAT_SQUADRON] units>",
+            "[+100]% Strength <vs [UNITCOMBAT_MISSILE] units>"
+        ]
+    },
+    {
+        "name": "UNIT_DESTROYER_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_DESTROYER_II", "imageSize": 192 },
+            { "text": "UNIT_DESTROYER_STRATEGY" },
+            { "text": "UNIT_DESTROYER_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_6",
+        "cost": 100,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 2,
+        "strength": 9,
+        "upgradesTo": "UNIT_DESTROYER_III",
+        "uniques": [
+            "[35]% chance to intercept air attacks <vs [UNITCOMBAT_SQUADRON] units>",
+            "[+100]% Strength <vs [UNITCOMBAT_SQUADRON] units>",
+            "[+100]% Strength <vs [UNITCOMBAT_MISSILE] units>"
+        ]
+    },
+    {
+        "name": "UNIT_DESTROYER_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_DESTROYER_III", "imageSize": 192 },
+            { "text": "UNIT_DESTROYER_STRATEGY" },
+            { "text": "UNIT_DESTROYER_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_9",
+        "cost": 200,
+        "unitType": "UNITCOMBAT_LIGHT_SHIP",
+        "movement": 3,
+        "strength": 14,
+        "uniques": [
+            "[40]% chance to intercept air attacks <vs [UNITCOMBAT_SQUADRON] units>",
+            "[+100]% Strength <vs [UNITCOMBAT_SQUADRON] units>",
+            "[+100]% Strength <vs [UNITCOMBAT_MISSILE] units>"
+        ]
+    },
+    {
+        "name": "UNIT_CRUISER_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_CRUISER_I", "imageSize": 192 },
+            { "text": "UNIT_CRUISER_STRATEGY" },
+            { "text": "UNIT_CRUISER_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_3",
+        "cost": 90,
+        "unitType": "UNITCOMBAT_CARRIER_SHIP",
+        "movement": 1,
+        "strength": 10,
+        "rangedStrength": 10,
+        "range": 1,
+        "upgradesTo": "UNIT_CRUISER_II",
+        "uniques": [ "Can carry [2] [UNITCOMBAT_MISSILE] units", "Blast radius [2]" ]
+    },
+    {
+        "name": "UNIT_CRUISER_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_CRUISER_II", "imageSize": 192 },
+            { "text": "UNIT_CRUISER_STRATEGY" },
+            { "text": "UNIT_CRUISER_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_7",
+        "cost": 180,
+        "unitType": "UNITCOMBAT_CARRIER_SHIP",
+        "movement": 2,
+        "strength": 15,
+        "rangedStrength": 15,
+        "range": 1,
+        "upgradesTo": "UNIT_CRUISER_III",
+        "uniques": [ "Can carry [3] [UNITCOMBAT_MISSILE] units", "Blast radius [2]" ]
+    },
+    {
+        "name": "UNIT_CRUISER_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_CRUISER_III", "imageSize": 192 },
+            { "text": "UNIT_CRUISER_STRATEGY" },
+            { "text": "UNIT_CRUISER_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_10",
+        "cost": 360,
+        "unitType": "UNITCOMBAT_CARRIER_SHIP",
+        "movement": 2,
+        "strength": 22,
+        "rangedStrength": 22,
+        "range": 1,
+        "uniques": [ "Can carry [3] [UNITCOMBAT_MISSILE] units", "Blast radius [2]" ]
+    },
+    {
+        "name": "UNIT_BATTLESHIP_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_BATTLESHIP_I", "imageSize": 192 },
+            { "text": "UNIT_BATTLESHIP_STRATEGY" },
+            { "text": "UNIT_BATTLESHIP_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_4",
+        "cost": 225,
+        "unitType": "UNITCOMBAT_CAPITAL_SHIP",
+        "movement": 1,
+        "strength": 24,
+        "rangedStrength": 24,
+        "range": 2,
+        "upgradesTo": "UNIT_BATTLESHIP_II",
+        "uniques": [ "Blast radius [2]" ]
+    },
+    {
+        "name": "UNIT_BATTLESHIP_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_BATTLESHIP_II", "imageSize": 192 },
+            { "text": "UNIT_BATTLESHIP_STRATEGY" },
+            { "text": "UNIT_BATTLESHIP_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_8",
+        "cost": 450,
+        "unitType": "UNITCOMBAT_CAPITAL_SHIP",
+        "movement": 1,
+        "strength": 36,
+        "rangedStrength": 36,
+        "range": 2,
+        "upgradesTo": "UNIT_BATTLESHIP_III",
+        "uniques": [ "Blast radius [2]" ]
+    },
+    {
+        "name": "UNIT_BATTLESHIP_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_BATTLESHIP_III", "imageSize": 192 },
+            { "text": "UNIT_BATTLESHIP_STRATEGY" },
+            { "text": "UNIT_BATTLESHIP_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_11",
+        "cost": 900,
+        "unitType": "UNITCOMBAT_CAPITAL_SHIP",
+        "movement": 2,
+        "strength": 50,
+        "rangedStrength": 50,
+        "range": 2,
+        "uniques": [ "Blast radius [2]" ]
+    },
+    {
+        "name": "UNIT_CARRIER_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_CARRIER_I", "imageSize": 192 },
+            { "text": "UNIT_CARRIER_STRATEGY" },
+            { "text": "UNIT_CARRIER_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_5",
+        "cost": 175,
+        "unitType": "UNITCOMBAT_CARRIER_SHIP",
+        "movement": 1,
+        "strength": 4,
+        "upgradesTo": "UNIT_CARRIER_II",
+        "uniques": [ "Can carry [3] [UNITCOMBAT_SQUADRON] units" ]
+    },
+    {
+        "name": "UNIT_CARRIER_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_CARRIER_II", "imageSize": 192 },
+            { "text": "UNIT_CARRIER_STRATEGY" },
+            { "text": "UNIT_CARRIER_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_9",
+        "cost": 350,
+        "unitType": "UNITCOMBAT_CARRIER_SHIP",
+        "movement": 1,
+        "strength": 6,
+        "upgradesTo": "UNIT_CARRIER_III",
+        "uniques": [ "Can carry [4] [UNITCOMBAT_SQUADRON] units" ]
+    },
+    {
+        "name": "UNIT_CARRIER_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_CARRIER_III", "imageSize": 192 },
+            { "text": "UNIT_CARRIER_STRATEGY" },
+            { "text": "UNIT_CARRIER_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_12",
+        "cost": 700,
+        "unitType": "UNITCOMBAT_CARRIER_SHIP",
+        "movement": 2,
+        "strength": 9,
+        "uniques": [ "Can carry [5] [UNITCOMBAT_SQUADRON] units" ]
+    },
+    {
+        "name": "UNIT_STARBASE_I",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_STARBASE_I", "imageSize": 192 },
+            { "text": "UNIT_STARBASE_STRATEGY" },
+            { "text": "UNIT_STARBASE_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_1",
+        "unitType": "UNITCOMBAT_STARBASE",
+        "movement": 1,
+        "strength": 30,
+        "upgradesTo": "UNIT_STARBASE_II",
+        "uniques": [ "Can carry [4] [UNITCOMBAT_SQUADRON] units", "Free [UNIT_MISSILE_I] appears <every [15] turns>" ],
+        "promotions": [ "PROMOTION_REPAIR_STAFF I", "PROMOTION_REPAIR_STAFF II" ]
+    },
+    {
+        "name": "UNIT_STARBASE_II",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_STARBASE_II", "imageSize": 192 },
+            { "text": "UNIT_STARBASE_STRATEGY" },
+            { "text": "UNIT_STARBASE_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_5",
+        "unitType": "UNITCOMBAT_STARBASE",
+        "movement": 1,
+        "strength": 45,
+        "upgradesTo": "UNIT_STARBASE_III",
+        "uniques": [ "Can carry [5] [UNITCOMBAT_SQUADRON] units", "Free [UNIT_MISSILE_II] appears <every [15] turns>" ],
+        "promotions": [ "PROMOTION_REPAIR_STAFF I", "PROMOTION_REPAIR_STAFF II" ]
+    },
+    {
+        "name": "UNIT_STARBASE_III",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_STARBASE_III", "imageSize": 192 },
+            { "text": "UNIT_STARBASE_STRATEGY" },
+            { "text": "UNIT_STARBASE_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_10",
+        "unitType": "UNITCOMBAT_STARBASE",
+        "movement": 1,
+        "strength": 60,
+        "uniques": [ "Can carry [6] [UNITCOMBAT_SQUADRON] units", "Free [UNIT_MISSILE_III] appears <every [15] turns>" ],
+        "promotions": [ "PROMOTION_REPAIR_STAFF I", "PROMOTION_REPAIR_STAFF II" ]
+    },
+    {
+        "name": "UNIT_ADVOCATE_KNOWLEDGE",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_ADVOCATE_KNOWLEDGE", "imageSize": 192 },
+            { "text": "UNIT_ADVOCATE_STRATEGY" },
+            { "text": "UNIT_ADVOCATE_PEDIA" }
+        ],
+        "requiredTech": "TECH_HAPPY_3",
+        "cost": 40,
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Can Spread Religion <for [1] movement> <[1] times> <after which this unit is consumed>",
+            "Only available <after founding a Pantheon>",
+            "Never appears as a Barbarian unit",
+            "May enter foreign tiles without open borders",
+            "Can remove other religions from cities",
+            "Uncapturable",
+            "Religious Unit",
+            "Cannot attack",
+            "Limited to [3] per Civilization",
+            "Only available <after adopting [VALUE_KNOWLEDGE]>"
+        ]
+    },
+    {
+        "name": "UNIT_ADVOCATE_POWER",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_ADVOCATE_POWER", "imageSize": 192 },
+            { "text": "UNIT_ADVOCATE_STRATEGY" },
+            { "text": "UNIT_ADVOCATE_PEDIA" }
+        ],
+        "requiredTech": "TECH_MILITARY_3",
+        "cost": 40,
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Can Spread Religion <for [1] movement> <[1] times> <after which this unit is consumed>",
+            "Only available <after founding a Pantheon>",
+            "Never appears as a Barbarian unit",
+            "May enter foreign tiles without open borders",
+            "Can remove other religions from cities",
+            "Uncapturable",
+            "Religious Unit",
+            "Cannot attack",
+            "Limited to [3] per Civilization",
+            "Only available <after adopting [VALUE_POWER]>"
+        ]
+    },
+    {
+        "name": "UNIT_ADVOCATE_RELIGION",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_ADVOCATE_RELIGION", "imageSize": 192 },
+            { "text": "UNIT_ADVOCATE_STRATEGY" },
+            { "text": "UNIT_ADVOCATE_PEDIA" }
+        ],
+        "requiredTech": "TECH_HAPPY_5",
+        "cost": 40,
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Can Spread Religion <for [1] movement> <[1] times> <after which this unit is consumed>",
+            "Only available <after founding a Pantheon>",
+            "Never appears as a Barbarian unit",
+            "May enter foreign tiles without open borders",
+            "Can remove other religions from cities",
+            "Uncapturable",
+            "Religious Unit",
+            "Cannot attack",
+            "Limited to [3] per Civilization",
+            "Only available <after adopting [VALUE_RELIGION]>"
+        ]
+    },
+    {
+        "name": "UNIT_ADVOCATE_SURVIVAL",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_ADVOCATE_SURVIVAL", "imageSize": 192 },
+            { "text": "UNIT_ADVOCATE_STRATEGY" },
+            { "text": "UNIT_ADVOCATE_PEDIA" }
+        ],
+        "requiredTech": "TECH_HAPPY_1",
+        "cost": 40,
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Can Spread Religion <for [1] movement> <[1] times> <after which this unit is consumed>",
+            "Only available <after founding a Pantheon>",
+            "Never appears as a Barbarian unit",
+            "May enter foreign tiles without open borders",
+            "Can remove other religions from cities",
+            "Uncapturable",
+            "Religious Unit",
+            "Cannot attack",
+            "Limited to [3] per Civilization",
+            "Only available <after adopting [VALUE_SURVIVAL]>"
+        ]
+    },
+    {
+        "name": "UNIT_ADVOCATE_WEALTH",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_ADVOCATE_WEALTH", "imageSize": 192 },
+            { "text": "UNIT_ADVOCATE_STRATEGY" },
+            { "text": "UNIT_ADVOCATE_PEDIA" }
+        ],
+        "requiredTech": "TECH_INDUSTRY_1",
+        "cost": 40,
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Can Spread Religion <for [1] movement> <[1] times> <after which this unit is consumed>",
+            "Only available <after founding a Pantheon>",
+            "Never appears as a Barbarian unit",
+            "May enter foreign tiles without open borders",
+            "Can remove other religions from cities",
+            "Uncapturable",
+            "Religious Unit",
+            "Cannot attack",
+            "Limited to [3] per Civilization",
+            "Only available <after adopting [VALUE_WEALTH]>"
+        ]
+    },
+    {
+        "name": "UNIT_GREAT_PROPHET",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_GREAT_PROPHET", "imageSize": 192 },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Unbuildable",
+            "Uncapturable",
+            "Cannot be purchased",
+            "Cannot attack",
+            "Great Person - [Faith]",
+            "Only available <when religion is enabled>",
+            "Never appears as a Barbarian unit"
+        ]
+    },
+    {
+        "name": "UNIT_GREAT_ARTIST",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_GREAT_ARTIST", "imageSize": 192 },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Gain [4000] [Culture] <by consuming this unit>",
+            "Unbuildable",
+            "Uncapturable",
+            "Cannot be purchased",
+            "Cannot attack",
+            "Great Person - [Culture]",
+            "Never appears as a Barbarian unit"
+        ]
+    },
+    {
+        "name": "UNIT_GREAT_SCIENTIST",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_GREAT_SCIENTIST", "imageSize": 192 },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Can hurry technology research",
+            "Unbuildable",
+            "Uncapturable",
+            "Cannot be purchased",
+            "Cannot attack",
+            "Great Person - [Science]",
+            "Never appears as a Barbarian unit"
+        ]
+    },
+    {
+        "name": "UNIT_GREAT_MERCHANT",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_GREAT_MERCHANT", "imageSize": 192 },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Unbuildable",
+            "Uncapturable",
+            "Cannot be purchased",
+            "Cannot attack",
+            "Great Person - [Gold]",
+            "Never appears as a Barbarian unit"
+        ]
+    },
+    {
+        "name": "UNIT_GREAT_ENGINEER",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_GREAT_ENGINEER", "imageSize": 192 },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Can speed up the construction of a wonder",
+            "Unbuildable",
+            "Uncapturable",
+            "Cannot be purchased",
+            "Cannot attack",
+            "Great Person - [Production]",
+            "Never appears as a Barbarian unit"
+        ]
+    },
+    {
+        "name": "UNIT_GREAT_GENERAL",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_GREAT_GENERAL", "imageSize": 192 },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Unbuildable",
+            "Uncapturable",
+            "Only available <if [Civ IV Warlords] is enabled>",
+            "Cannot be purchased",
+            "Cannot attack",
+            "Great Person - [War]",
+            "Never appears as a Barbarian unit"
+        ]
+    },
+    {
+        "name": "UNIT_GREAT_SPY",
+        "civilopediaText": [
+            { "extraImage": "TileSets/FantasyHex/Units/UNIT_GREAT_SPY", "imageSize": 192 },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "unitType": "UNITCOMBAT_CIVILIAN",
+        "movement": 2,
+        "uniques": [
+            "Invisible to non-adjacent units",
+            "Unbuildable",
+            "Uncapturable",
+            "Only available <when espionage is enabled>",
+            "Only available <if [Civ IV Beyond the Sword] is enabled>",
+            "Cannot attack",
+            "May enter foreign tiles without open borders",
+            "Great Person - [Espionage]",
+            "Invisible to others",
+            "Can see invisible [Spy] units",
+            "Cannot attack",
+            "Never appears as a Barbarian unit"
+        ]
+    }
+]

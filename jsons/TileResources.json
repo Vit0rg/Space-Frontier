@@ -1,0 +1,122 @@
+[
+    {
+        "name": "BONUS_WATER",
+        "resourceType": "Strategic",
+        "terrainsCanBeFoundOn": [ "TILE_ASTEROIDS" ],
+        "improvement": "IMPROVEMENT_EXTRACTION_FACILITY",
+        "uniques": [
+            "Guaranteed with Strategic Balance resource option",
+            "Generated on every [30] tiles",
+            "Provides [+1] [BONUS_HEALTH] <in [IMPROVEMENT_EXTRACTION_FACILITY] tiles>"
+        ],
+        "civilopediaText": [
+            { "text": "BONUS_WATER_PEDIA" }
+        ]
+    },
+    {
+        "name": "BONUS_OIL",
+        "resourceType": "Strategic",
+        "terrainsCanBeFoundOn": [ "TILE_ASTEROIDS" ],
+        "improvement": "IMPROVEMENT_EXTRACTION_FACILITY",
+        "uniques": [ "Guaranteed with Strategic Balance resource option", "Generated on every [30] tiles" ],
+        "civilopediaText": [
+            { "text": "BONUS_OIL_PEDIA" },
+            { "text": "BONUS_OIL_HELP" }
+        ]
+    },
+    {
+        "name": "BONUS_TITANIUM",
+        "resourceType": "Strategic",
+        "terrainsCanBeFoundOn": [ "TILE_ASTEROIDS" ],
+        "improvement": "IMPROVEMENT_EXTRACTION_FACILITY",
+        "uniques": [ "Guaranteed with Strategic Balance resource option", "Generated on every [30] tiles" ],
+        "civilopediaText": [
+            { "text": "BONUS_TITANIUM_PEDIA" },
+            { "text": "BONUS_TITANIUM_HELP" }
+        ]
+    },
+    {
+        "name": "BONUS_IRON",
+        "resourceType": "Strategic",
+        "terrainsCanBeFoundOn": [ "TILE_ASTEROIDS" ],
+        "improvement": "IMPROVEMENT_EXTRACTION_FACILITY",
+        "uniques": [ "Guaranteed with Strategic Balance resource option", "Generated on every [30] tiles" ],
+        "civilopediaText": [
+            { "text": "BONUS_IRON_PEDIA" },
+            { "text": "BONUS_IRON_HELP" }
+        ]
+    },
+    {
+        "name": "BONUS_HYDROGEN",
+        "resourceType": "Strategic",
+        "terrainsCanBeFoundOn": [ "TILE_ASTEROIDS" ],
+        "improvement": "IMPROVEMENT_EXTRACTION_FACILITY",
+        "uniques": [ "Guaranteed with Strategic Balance resource option", "Generated on every [30] tiles" ],
+        "civilopediaText": [
+            { "text": "BONUS_HYDROGEN_PEDIA" },
+            { "text": "BONUS_HYDROGEN_HELP" }
+        ]
+    },
+    {
+        "name": "BONUS_URANIUM",
+        "resourceType": "Strategic",
+        "terrainsCanBeFoundOn": [ "TILE_ASTEROIDS" ],
+        "improvement": "IMPROVEMENT_EXTRACTION_FACILITY",
+        "uniques": [ "Guaranteed with Strategic Balance resource option", "Generated on every [30] tiles" ],
+        "civilopediaText": [
+            { "text": "BONUS_URANIUM_PEDIA" },
+            { "text": "BONUS_URANIUM_HELP" }
+        ]
+    },
+    {
+        "name": "BONUS_CRYSTALS",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": [ "TILE_ASTEROIDS" ],
+        "improvement": "IMPROVEMENT_EXTRACTION_FACILITY",
+        "improvementStats": {
+            "happiness": 3
+        },
+        "uniques": [ "Generated on every [30] tiles" ],
+        "civilopediaText": [
+            { "text": "BONUS_CRYSTALS_PEDIA" }
+        ]
+    },
+    {
+        "name": "BONUS_GOLD",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": [ "TILE_ASTEROIDS" ],
+        "improvement": "IMPROVEMENT_EXTRACTION_FACILITY",
+        "improvementStats": {
+            "happiness": 3
+        },
+        "uniques": [ "Generated on every [30] tiles" ],
+        "civilopediaText": [
+            { "text": "BONUS_GOLD_PEDIA" }
+        ]
+    },
+    {
+        "name": "BONUS_OXYGEN",
+        "resourceType": "Strategic",
+        "terrainsCanBeFoundOn": [ "TILE_ASTEROIDS" ],
+        "improvement": "IMPROVEMENT_EXTRACTION_FACILITY",
+        "uniques": [
+            "Guaranteed with Strategic Balance resource option",
+            "Generated on every [30] tiles",
+            "Provides [+1] [BONUS_HEALTH] <in [IMPROVEMENT_EXTRACTION_FACILITY] tiles>"
+        ],
+        "civilopediaText": [
+            { "text": "BONUS_OXYGEN_PEDIA" }
+        ]
+    },
+    {
+        "name": "BONUS_HEALTH",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Cannot be traded",
+            "Doesn't generate naturally",
+            "City-level resource",
+            "Excluded from map editor",
+            "Not shown on world screen"
+        ]
+    }
+]

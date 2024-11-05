@@ -1,0 +1,58 @@
+// Civ 4 Religions are represented as Pantheons in Unciv
+[
+	{
+		"name": "VALUE_WEALTH",
+		"type": "Pantheon",
+		"uniques": [
+			"[+15]% [Gold] [in your cities]",
+			"Only available <after discovering [TECH_INDUSTRY_1]>"
+		],
+		"civilopediaText": [
+            {"text": "VALUE_WEALTH_PEDIA"},
+		]
+ 	},
+	{
+		"name": "VALUE_SURVIVAL",
+		"type": "Pantheon",
+		"uniques": [
+			"Provides [+6] [BONUS_HEALTH]",
+			"Only available <after discovering [TECH_HAPPY_1]>"
+		],
+		"civilopediaText": [
+            {"text": "VALUE_SURVIVAL_PEDIA"},
+		]
+	},
+	{
+		"name": "VALUE_POWER",
+		"type": "Pantheon",
+		"uniques": [
+			"New [Military] units start with [2] Experience [in your cities]",
+			"Only available <after discovering [TECH_MILITARY_3]>"
+		],
+		"civilopediaText": [
+            {"text": "VALUE_POWER_PEDIA"},
+		]
+	},
+	{
+		"name": "VALUE_KNOWLEDGE",
+		"type": "Pantheon",
+		"uniques": [
+			"[+15]% [Science] [in your cities]",
+			"Only available <after discovering [TECH_HAPPY_3]>"
+		],
+		"civilopediaText": [
+            {"text": "VALUE_KNOWLEDGE_PEDIA"},
+		]
+	},
+	{
+		"name": "VALUE_RELIGION",
+		"type": "Pantheon",
+		"uniques": [
+			"[+12]% [Happiness] [in your cities]",
+			"Only available <after discovering [TECH_HAPPY_5]>"
+		],
+		"civilopediaText": [
+            {"text": "VALUE_RELIGION_PEDIA"},
+		]
+	},
+]

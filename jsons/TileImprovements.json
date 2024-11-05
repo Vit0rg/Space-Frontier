@@ -1,0 +1,24 @@
+[
+    {
+        "name": "IMPROVEMENT_EXTRACTION_FACILITY",
+        "terrainsCanBeBuiltOn": [ "TILE_ASTEROIDS" ],
+        "turnsToBuild": 4,
+        "uniques": [ "[+1 Production] <in [Railroad] tiles>", "Pillaging this improvement yields approximately [+10 Gold]" ],
+        "shortcutKey": "M"
+    },
+    {
+        "name": "IMPROVEMENT_GOODY_HUT",
+        "terrainsCanBeBuiltOn": [ "TILE_ASTEROIDS" ],
+        "uniques": [
+            "Unpillagable",
+            "Provides a random bonus when entered",
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "IMPROVEMENT_COLONY",
+        "terrainsCanBeBuiltOn": [ "TILE_PLANET" ],
+        "turnsToBuild": 1,
+        "uniques": [ "Tile provides yield without assigned population", "Removes removable features when built" ]
+    }
+]

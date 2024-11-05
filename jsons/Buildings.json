@@ -1,0 +1,305 @@
+[
+    {
+        "name": "BUILDING_CAPITOL",
+        "cost": 160,
+        "uniques": [ "Indicates the capital city" ],
+        "civilopediaText": [ { "text": "BUILDING_CAPITOL_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_NUTRITION_FACILITY",
+        "requiredTech": "TECH_INDUSTRY_3",
+        "cost": 50,
+        "food": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_NUTRITION_FACILITY_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_MINING_FACILITY",
+        "requiredTech": "TECH_INDUSTRY_2",
+        "cost": 45,
+        "production": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_MINING_FACILITY_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_MAG_LEV_NETWORK",
+        "requiredTech": "TECH_HAPPY_2",
+        "cost": 40,
+        "gold": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_MAG_LEV_NETWORK_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_COMMERCIAL_SATELLITES",
+        "requiredTech": "TECH_HAPPY_6",
+        "cost": 50,
+        "gold": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_COMMERCIAL_SATELLITES_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_HABITATION_SYSTEM",
+        "requiredTech": "TECH_HAPPY_3",
+        "cost": 80,
+        "food": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_HABITATION_SYSTEM_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_TRAINING_COMPOUND",
+        "requiredTech": "TECH_MILITARY_0",
+        "cost": 40,
+        "uniques": [ "New [Military] units start with [15] Experience [in this city]" ],
+        "civilopediaText": [ { "text": "BUILDING_TRAINING_COMPOUND_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_CAPITAL_SHIPYARD",
+        "requiredTech": "TECH_MILITARY_2",
+        "cost": 50,
+        "uniques": [ "New [Military] units start with [15] Experience [in this city]" ],
+        "civilopediaText": [ { "text": "BUILDING_CAPITAL_SHIPYARD_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_SQUADRON_FACTORY",
+        "requiredTech": "TECH_INDUSTRY_2",
+        "cost": 40,
+        "uniques": [ "New [Military] units start with [15] Experience [in this city]" ],
+        "civilopediaText": [ { "text": "BUILDING_SQUADRON_FACTORY_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_RECYCLING_CENTER",
+        "requiredTech": "TECH_HAPPY_4",
+        "cost": 40,
+        "food": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_RECYCLING_CENTER_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_SPORTS_ARENA",
+        "requiredTech": "TECH_HAPPY_5",
+        "cost": 40,
+        "happiness": 1,
+        "culture": 3,
+        "civilopediaText": [ { "text": "BUILDING_SPORTS_ARENA_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_INTERPLANETARY_BEACON",
+        "requiredTech": "TECH_HAPPY_1",
+        "cost": 25,
+        "culture": 10,
+        "civilopediaText": [ { "text": "BUILDING_INTERPLANETARY_BEACON_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_UNIVERSITY",
+        "requiredTech": "TECH_HAPPY_3",
+        "cost": 60,
+        "science": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_UNIVERSITY_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_RESEARCH_LAB",
+        "requiredTech": "TECH_HAPPY_7",
+        "cost": 80,
+        "science": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_RESEARCH_LAB_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_BANKING_SYSTEM",
+        "requiredTech": "TECH_HAPPY_4",
+        "cost": 50,
+        "gold": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_BANKING_SYSTEM_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_SPACEPORT",
+        "requiredTech": "TECH_HAPPY_8",
+        "cost": 70,
+        "gold": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_SPACEPORT_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_FACTORY",
+        "requiredTech": "TECH_INDUSTRY_4",
+        "cost": 70,
+        "production": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_FACTORY_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_MANUFACTURING_PLANT",
+        "requiredTech": "TECH_INDUSTRY_7",
+        "cost": 90,
+        "production": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_MANUFACTURING_PLANT_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_STARDOCK",
+        "requiredTech": "TECH_HAPPY_6",
+        "cost": 40,
+        "gold": 1.0,
+        "civilopediaText": [ { "text": "BUILDING_STARDOCK_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_POLICE_AGENCY",
+        "requiredTech": "TECH_MILITARY_8",
+        "cost": 40,
+        "gold": 0.6,
+        "civilopediaText": [ { "text": "BUILDING_POLICE_AGENCY_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_INTELLIGENCE_CENTER",
+        "requiredTech": "TECH_MILITARY_2",
+        "cost": 40,
+        "civilopediaText": [ { "text": "BUILDING_INTELLIGENCE_CENTER_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_AIR_DEFENSE_NETWORK",
+        "requiredTech": "TECH_INDUSTRY_2",
+        "cost": 120,
+        "uniques": [ "New [Military] units start with [15] Experience [in this city]" ],
+        "civilopediaText": [ { "text": "BUILDING_AIR_DEFENSE_NETWORK_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_STAR_FORTRESS",
+        "requiredTech": "TECH_INDUSTRY_3",
+        "cost": 80,
+        "uniques": [ "New [Military] units start with [15] Experience [in this city]" ],
+        "civilopediaText": [ { "text": "BUILDING_STAR_FORTRESS_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_ACADEMY_OF_KNOWLEDGE",
+        "cost": 50,
+        "science": 1.0,
+        "uniques": [ "Only available <after adopting [VALUE_KNOWLEDGE]>" ],
+        "civilopediaText": [ { "text": "BUILDING_ACADEMY_OF_KNOWLEDGE_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_SCHOOL_OF_ZEALOTS",
+        "cost": 35,
+        "uniques": [ "New [Military] units start with [15] Experience [in this city]", "Only available <after adopting [VALUE_POWER]>" ],
+        "civilopediaText": [ { "text": "BUILDING_SCHOOL_OF_ZEALOTS_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_TEMPLE_OF_WORSHIP",
+        "cost": 35,
+        "happiness": 1,
+        "culture": 3,
+        "uniques": [ "Only available <after adopting [VALUE_RELIGION]>" ],
+        "civilopediaText": [ { "text": "BUILDING_TEMPLE_OF_WORSHIP_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_SURVIVAL_DOME",
+        "cost": 35,
+        "food": 1.0,
+        "uniques": [ "Only available <after adopting [VALUE_SURVIVAL]>" ],
+        "civilopediaText": [ { "text": "BUILDING_SURVIVAL_DOME_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_STELLAR_MARKET",
+        "cost": 45,
+        "gold": 1.0,
+        "uniques": [ "Only available <after adopting [VALUE_WEALTH]>" ],
+        "civilopediaText": [ { "text": "BUILDING_STELLAR_MARKET_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_MILITARY_ACADEMY",
+        "uniques": [ "Unbuildable", "New [Military] units start with [15] Experience [in this city]" ],
+        "civilopediaText": [ { "text": "BUILDING_MILITARY_ACADEMY_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_UNITED_PLANETS",
+        "requiredTech": "TECH_HAPPY_10",
+        "cost": 600,
+        "civilopediaText": [ { "text": "BUILDING_UNITED_PLANETS_PEDIA" } ]
+    },
+    {
+        "name": "BUILDING_COLONY_1",
+        "cost": 0,
+        "specialistSlots": {
+            "COLONIST": 3
+        },
+        "uniques": [
+            "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
+            "Cannot be purchased",
+            "Unsellable",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "BUILDING_COLONY_2",
+        "cost": 0,
+        "specialistSlots": {
+            "COLONIST": 3
+        },
+        "uniques": [
+            "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
+            "Only available <if [BUILDING_COLONY_1] is constructed>",
+            "Will not be displayed in Civilopedia",
+            "Cannot be purchased",
+            "Unsellable",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "BUILDING_COLONY_3",
+        "cost": 0,
+        "specialistSlots": {
+            "COLONIST": 3
+        },
+        "uniques": [
+            "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
+            "Only available <if [BUILDING_COLONY_2] is constructed>",
+            "Will not be displayed in Civilopedia",
+            "Cannot be purchased",
+            "Unsellable",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "BUILDING_COLONY_4",
+        "cost": 0,
+        "specialistSlots": {
+            "COLONIST": 3
+        },
+        "uniques": [
+            "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
+            "Only available <if [BUILDING_COLONY_3] is constructed>",
+            "Will not be displayed in Civilopedia",
+            "Cannot be purchased",
+            "Unsellable",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Revolution",
+        "cost": 1,
+        "maintenance": 0,
+        "isNationalWonder": true,
+        "happiness": -5,
+        "uniques": [
+            "Comment [Allows selecting new Policies/Civics]",
+            "[-2 Happiness] [in your cities] <for [2] turns>",
+            "Remove [Revolution] [in this city] <hidden from users>",
+            "Only available <in [in capital] cities>",
+            "Only available <for [Human player] Civilizations> <hidden from users>",
+            "Cannot be hurried",
+            "Cannot be purchased",
+            "Free Social Policy <hidden from users>",
+            "Free Social Policy <hidden from users>",
+            "Free Social Policy <hidden from users>",
+            "Free Social Policy <hidden from users>",
+            "Remove [CIVIC_TRADITIONAL_MILITARY] <hidden from users>",
+            "Remove [CIVIC_PACIFISM] <hidden from users>",
+            "Remove [CIVIC_LIGHT_SHIP_DOCTRINE] <hidden from users>",
+            "Remove [CIVIC_CAPITAL_SHIP_DOCTRINE] <hidden from users>",
+            "Remove [CIVIC_SQUADRON_DOCTRINE] <hidden from users>",
+            "Remove [CIVIC_FRONTIER] <hidden from users>",
+            "Remove [CIVIC_MONARCHY] <hidden from users>",
+            "Remove [CIVIC_DEMOCRACY] <hidden from users>",
+            "Remove [CIVIC_TECHNOCRACY] <hidden from users>",
+            "Remove [CIVIC_POLICE_STATE] <hidden from users>",
+            "Remove [CIVIC_DEFAULT_LABOR] <hidden from users>",
+            "Remove [CIVIC_MECHANIZED_WORKFORCE] <hidden from users>",
+            "Remove [CIVIC_SLAVE_STATE] <hidden from users>",
+            "Remove [CIVIC_UTOPIA] <hidden from users>",
+            "Remove [CIVIC_SIMPLE_ECONOMY] <hidden from users>",
+            "Remove [CIVIC_INDUSTRIALISM] <hidden from users>",
+            "Remove [CIVIC_GREEN_ECONOMY] <hidden from users>",
+            "Remove [CIVIC_PLANNED_ECONOMY] <hidden from users>"
+        ],
+        "civilopediaText": [ { "text": "In order to select new Civic Policies, you must trigger a Revolution in your nation's capital. Once built, you'll be able to select the new Civics." } ]
+    }
+]

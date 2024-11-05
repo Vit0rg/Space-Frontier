@@ -1,0 +1,370 @@
+
+UnitSets.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/UNIT_ADVOCATE
+  rotate: false
+  xy: 4, 804
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_ADVOCATE_KNOWLEDGE
+  rotate: false
+  xy: 4, 804
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_ADVOCATE_POWER
+  rotate: false
+  xy: 4, 604
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_ADVOCATE_RELIGION
+  rotate: false
+  xy: 204, 804
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_ADVOCATE_SURVIVAL
+  rotate: false
+  xy: 4, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_GREAT_ARTIST
+  rotate: false
+  xy: 4, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_GREAT_ENGINEER
+  rotate: false
+  xy: 4, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_GREAT_GENERAL
+  rotate: false
+  xy: 4, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_GREAT_MERCHANT
+  rotate: false
+  xy: 4, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_GREAT_PROPHET
+  rotate: false
+  xy: 4, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_GREAT_SCIENTIST
+  rotate: false
+  xy: 4, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_GREAT_SPY
+  rotate: false
+  xy: 4, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_ADVOCATE_WEALTH
+  rotate: false
+  xy: 204, 604
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_BATTLESHIP_I
+  rotate: false
+  xy: 404, 804
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_BATTLESHIP_II
+  rotate: false
+  xy: 4, 204
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_BATTLESHIP_III
+  rotate: false
+  xy: 204, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_CARRIER_I
+  rotate: false
+  xy: 404, 604
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_CARRIER_II
+  rotate: false
+  xy: 604, 804
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_CARRIER_III
+  rotate: false
+  xy: 4, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_COLONY_SHIP
+  rotate: false
+  xy: 204, 204
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_CONSTRUCT_SHIP
+  rotate: false
+  xy: 404, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_CRUISER_I
+  rotate: false
+  xy: 604, 604
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_CRUISER_II
+  rotate: false
+  xy: 804, 804
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_CRUISER_III
+  rotate: false
+  xy: 204, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_DESTROYER_I
+  rotate: false
+  xy: 404, 204
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_DESTROYER_II
+  rotate: false
+  xy: 604, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_DESTROYER_III
+  rotate: false
+  xy: 804, 604
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_INVASION_SHIP_I
+  rotate: false
+  xy: 1004, 804
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_INVASION_SHIP_II
+  rotate: false
+  xy: 404, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_INVASION_SHIP_III
+  rotate: false
+  xy: 604, 204
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_MISSILE_I
+  rotate: false
+  xy: 804, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_MISSILE_II
+  rotate: false
+  xy: 1004, 604
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_MISSILE_III
+  rotate: false
+  xy: 1204, 804
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_NUCLEAR_MISSILE
+  rotate: false
+  xy: 604, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_PLANETARY_DEFENSE_I
+  rotate: false
+  xy: 804, 204
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_PLANETARY_DEFENSE_II
+  rotate: false
+  xy: 1004, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_PLANETARY_DEFENSE_III
+  rotate: false
+  xy: 1204, 604
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_SCOUT_I
+  rotate: false
+  xy: 1404, 804
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_SCOUT_II
+  rotate: false
+  xy: 804, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_SCOUT_III
+  rotate: false
+  xy: 1004, 204
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_SPACE_BOMBER_I
+  rotate: false
+  xy: 1204, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_SPACE_BOMBER_II
+  rotate: false
+  xy: 1404, 604
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_SPACE_BOMBER_III
+  rotate: false
+  xy: 1604, 804
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_SPACE_FIGHTER_I
+  rotate: false
+  xy: 1004, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_SPACE_FIGHTER_II
+  rotate: false
+  xy: 1204, 204
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_SPACE_FIGHTER_III
+  rotate: false
+  xy: 1404, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_STARBASE_I
+  rotate: false
+  xy: 1604, 604
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_STARBASE_II
+  rotate: false
+  xy: 1804, 804
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_STARBASE_III
+  rotate: false
+  xy: 1204, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_STEALTH_SHIP_I
+  rotate: false
+  xy: 1404, 204
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_STEALTH_SHIP_II
+  rotate: false
+  xy: 1604, 404
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UNIT_STEALTH_SHIP_III
+  rotate: false
+  xy: 1804, 604
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
