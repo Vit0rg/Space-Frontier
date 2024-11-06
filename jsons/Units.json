@@ -145,7 +145,8 @@
         "uniques": [
             "[60]% chance to intercept air attacks <vs [UNITCOMBAT_SQUADRON] units>",
             "[+200]% Strength <vs [UNITCOMBAT_SQUADRON] units>",
-            "Destroys tile improvements when attacking"
+            "Destroys tile improvements when attacking",
+            "Only available <if [BUILDING_SQUADRON_FACTORY] is constructed> <in this city>"
         ]
     },
     {
@@ -164,7 +165,8 @@
         "uniques": [
             "[65]% chance to intercept air attacks <vs [UNITCOMBAT_SQUADRON] units>",
             "[+200]% Strength <vs [UNITCOMBAT_SQUADRON] units>",
-            "Destroys tile improvements when attacking"
+            "Destroys tile improvements when attacking",
+            "Only available <if [BUILDING_SQUADRON_FACTORY] is constructed> <in this city>"
         ]
     },
     {
@@ -182,7 +184,8 @@
         "uniques": [
             "[70]% chance to intercept air attacks <vs [UNITCOMBAT_SQUADRON] units>",
             "[+200]% Strength <vs [UNITCOMBAT_SQUADRON] units>",
-            "Destroys tile improvements when attacking"
+            "Destroys tile improvements when attacking",
+            "Only available <if [BUILDING_SQUADRON_FACTORY] is constructed> <in this city>"
         ]
     },
     {
@@ -198,7 +201,7 @@
         "movement": 1,
         "strength": 6,
         "upgradesTo": "UNIT_SPACE_BOMBER_II",
-        "uniques": [ "Destroys tile improvements when attacking" ]
+        "uniques": [ "Destroys tile improvements when attacking", "Only available <if [BUILDING_SQUADRON_FACTORY] is constructed> <in this city>" ]
     },
     {
         "name": "UNIT_SPACE_BOMBER_II",
@@ -213,7 +216,7 @@
         "movement": 1,
         "strength": 10,
         "upgradesTo": "UNIT_SPACE_BOMBER_III",
-        "uniques": [ "Destroys tile improvements when attacking" ]
+        "uniques": [ "Destroys tile improvements when attacking", "Only available <if [BUILDING_SQUADRON_FACTORY] is constructed> <in this city>" ]
     },
     {
         "name": "UNIT_SPACE_BOMBER_III",
@@ -227,7 +230,7 @@
         "unitType": "UNITCOMBAT_SQUADRON",
         "movement": 1,
         "strength": 15,
-        "uniques": [ "Destroys tile improvements when attacking" ]
+        "uniques": [ "Destroys tile improvements when attacking", "Only available <if [BUILDING_SQUADRON_FACTORY] is constructed> <in this city>" ]
     },
     {
         "name": "UNIT_NUCLEAR_MISSILE",
@@ -382,7 +385,8 @@
             "Invisible to non-adjacent units",
             "Can see invisible [All] units",
             "Unable to capture cities",
-            "May enter foreign tiles without open borders"
+            "May enter foreign tiles without open borders",
+            "Only available <if [BUILDING_POLICE_AGENCY] is constructed> <in this city>"
         ]
     },
     {
@@ -402,7 +406,8 @@
             "Invisible to non-adjacent units",
             "Can see invisible [All] units",
             "Unable to capture cities",
-            "May enter foreign tiles without open borders"
+            "May enter foreign tiles without open borders",
+            "Only available <if [BUILDING_POLICE_AGENCY] is constructed> <in this city>"
         ]
     },
     {
@@ -421,7 +426,8 @@
             "Invisible to non-adjacent units",
             "Can see invisible [All] units",
             "Unable to capture cities",
-            "May enter foreign tiles without open borders"
+            "May enter foreign tiles without open borders",
+            "Only available <if [BUILDING_POLICE_AGENCY] is constructed> <in this city>"
         ]
     },
     {
@@ -495,7 +501,11 @@
         "rangedStrength": 10,
         "range": 1,
         "upgradesTo": "UNIT_CRUISER_II",
-        "uniques": [ "Can carry [2] [UNITCOMBAT_MISSILE] units", "Blast radius [2]" ]
+        "uniques": [
+            "Can carry [2] [UNITCOMBAT_MISSILE] units",
+            "Blast radius [2]",
+            "Only available <if [BUILDING_CAPITAL_SHIPYARD] is constructed> <in this city>"
+        ]
     },
     {
         "name": "UNIT_CRUISER_II",
@@ -512,7 +522,11 @@
         "rangedStrength": 15,
         "range": 1,
         "upgradesTo": "UNIT_CRUISER_III",
-        "uniques": [ "Can carry [3] [UNITCOMBAT_MISSILE] units", "Blast radius [2]" ]
+        "uniques": [
+            "Can carry [3] [UNITCOMBAT_MISSILE] units",
+            "Blast radius [2]",
+            "Only available <if [BUILDING_CAPITAL_SHIPYARD] is constructed> <in this city>"
+        ]
     },
     {
         "name": "UNIT_CRUISER_III",
@@ -528,7 +542,11 @@
         "strength": 22,
         "rangedStrength": 22,
         "range": 1,
-        "uniques": [ "Can carry [3] [UNITCOMBAT_MISSILE] units", "Blast radius [2]" ]
+        "uniques": [
+            "Can carry [3] [UNITCOMBAT_MISSILE] units",
+            "Blast radius [2]",
+            "Only available <if [BUILDING_CAPITAL_SHIPYARD] is constructed> <in this city>"
+        ]
     },
     {
         "name": "UNIT_BATTLESHIP_I",
@@ -545,7 +563,7 @@
         "rangedStrength": 24,
         "range": 2,
         "upgradesTo": "UNIT_BATTLESHIP_II",
-        "uniques": [ "Blast radius [2]" ]
+        "uniques": [ "Blast radius [2]", "Only available <if [BUILDING_CAPITAL_SHIPYARD] is constructed> <in this city>" ]
     },
     {
         "name": "UNIT_BATTLESHIP_II",
@@ -562,7 +580,7 @@
         "rangedStrength": 36,
         "range": 2,
         "upgradesTo": "UNIT_BATTLESHIP_III",
-        "uniques": [ "Blast radius [2]" ]
+        "uniques": [ "Blast radius [2]", "Only available <if [BUILDING_CAPITAL_SHIPYARD] is constructed> <in this city>" ]
     },
     {
         "name": "UNIT_BATTLESHIP_III",
@@ -578,7 +596,7 @@
         "strength": 50,
         "rangedStrength": 50,
         "range": 2,
-        "uniques": [ "Blast radius [2]" ]
+        "uniques": [ "Blast radius [2]", "Only available <if [BUILDING_CAPITAL_SHIPYARD] is constructed> <in this city>" ]
     },
     {
         "name": "UNIT_CARRIER_I",
@@ -593,7 +611,7 @@
         "movement": 1,
         "strength": 4,
         "upgradesTo": "UNIT_CARRIER_II",
-        "uniques": [ "Can carry [3] [UNITCOMBAT_SQUADRON] units" ]
+        "uniques": [ "Can carry [3] [UNITCOMBAT_SQUADRON] units", "Only available <if [BUILDING_CAPITAL_SHIPYARD] is constructed> <in this city>" ]
     },
     {
         "name": "UNIT_CARRIER_II",
@@ -608,7 +626,7 @@
         "movement": 1,
         "strength": 6,
         "upgradesTo": "UNIT_CARRIER_III",
-        "uniques": [ "Can carry [4] [UNITCOMBAT_SQUADRON] units" ]
+        "uniques": [ "Can carry [4] [UNITCOMBAT_SQUADRON] units", "Only available <if [BUILDING_CAPITAL_SHIPYARD] is constructed> <in this city>" ]
     },
     {
         "name": "UNIT_CARRIER_III",
@@ -622,7 +640,7 @@
         "unitType": "UNITCOMBAT_CARRIER_SHIP",
         "movement": 2,
         "strength": 9,
-        "uniques": [ "Can carry [5] [UNITCOMBAT_SQUADRON] units" ]
+        "uniques": [ "Can carry [5] [UNITCOMBAT_SQUADRON] units", "Only available <if [BUILDING_CAPITAL_SHIPYARD] is constructed> <in this city>" ]
     },
     {
         "name": "UNIT_STARBASE_I",

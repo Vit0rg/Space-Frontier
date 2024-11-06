@@ -213,6 +213,7 @@
         },
         "uniques": [
             "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
+            "Must be next to [TILE_PLANET]",
             "Cannot be purchased",
             "Unsellable",
             "Never destroyed when the city is captured"
@@ -228,6 +229,7 @@
             "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
             "Only available <if [BUILDING_COLONY_1] is constructed>",
             "Will not be displayed in Civilopedia",
+            "Must be next to [TILE_PLANET]",
             "Cannot be purchased",
             "Unsellable",
             "Never destroyed when the city is captured"
@@ -243,6 +245,7 @@
             "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
             "Only available <if [BUILDING_COLONY_2] is constructed>",
             "Will not be displayed in Civilopedia",
+            "Must be next to [TILE_PLANET]",
             "Cannot be purchased",
             "Unsellable",
             "Never destroyed when the city is captured"
@@ -258,6 +261,7 @@
             "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
             "Only available <if [BUILDING_COLONY_3] is constructed>",
             "Will not be displayed in Civilopedia",
+            "Must be next to [TILE_PLANET]",
             "Cannot be purchased",
             "Unsellable",
             "Never destroyed when the city is captured"
