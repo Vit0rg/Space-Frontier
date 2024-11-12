@@ -4,6 +4,62 @@ size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TileSets/FantasyHex/Borders/ConcaveConvexInner
+  rotate: false
+  xy: 1880, 977
+  size: 100, 43
+  orig: 100, 43
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Borders/ConcaveConvexOuter
+  rotate: false
+  xy: 1260, 497
+  size: 100, 43
+  orig: 100, 43
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Borders/ConcaveInner
+  rotate: false
+  xy: 1060, 164
+  size: 100, 43
+  orig: 100, 43
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Borders/ConcaveOuter
+  rotate: false
+  xy: 1880, 926
+  size: 100, 43
+  orig: 100, 43
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Borders/ConvexConcaveInner
+  rotate: false
+  xy: 1260, 446
+  size: 100, 43
+  orig: 100, 43
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Borders/ConvexConcaveOuter
+  rotate: false
+  xy: 1368, 497
+  size: 100, 43
+  orig: 100, 43
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Borders/ConvexInner
+  rotate: false
+  xy: 1060, 113
+  size: 100, 43
+  orig: 100, 43
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Borders/ConvexOuter
+  rotate: false
+  xy: 1880, 875
+  size: 100, 43
+  orig: 100, 43
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Crosshair
   rotate: false
   xy: 1060, 215
@@ -195,119 +251,119 @@ TileSets/FantasyHex/Tiles/TILE_ORBIT
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET
   rotate: false
-  xy: 1880, 956
+  xy: 1168, 143
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET2
   rotate: false
-  xy: 1260, 476
+  xy: 1260, 374
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_DESERT_L
   rotate: false
-  xy: 1260, 476
+  xy: 1260, 374
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_DESERT_M
   rotate: false
-  xy: 1260, 476
+  xy: 1260, 374
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_DESERT_S
   rotate: false
-  xy: 1260, 476
+  xy: 1260, 374
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET3
   rotate: false
-  xy: 1060, 143
+  xy: 1880, 803
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_AGUA_L
   rotate: false
-  xy: 1060, 143
+  xy: 1880, 803
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_AGUA_M
   rotate: false
-  xy: 1060, 143
+  xy: 1880, 803
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_AGUA_S
   rotate: false
-  xy: 1060, 143
+  xy: 1880, 803
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET4
   rotate: false
-  xy: 1880, 884
+  xy: 1880, 731
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_TOXIC_L
   rotate: false
-  xy: 1880, 884
+  xy: 1880, 731
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_TOXIC_M
   rotate: false
-  xy: 1880, 884
+  xy: 1880, 731
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_TOXIC_S
   rotate: false
-  xy: 1880, 884
+  xy: 1880, 731
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET5
   rotate: false
-  xy: 1952, 956
+  xy: 1880, 659
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_TERRA_L
   rotate: false
-  xy: 1952, 956
+  xy: 1880, 659
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_TERRA_M
   rotate: false
-  xy: 1952, 956
+  xy: 1880, 659
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TILE_PLANET_TERRA_S
   rotate: false
-  xy: 1952, 956
+  xy: 1880, 659
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
