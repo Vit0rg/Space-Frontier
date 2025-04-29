@@ -44,21 +44,21 @@
         "name": "BUILDING_TRAINING_COMPOUND",
         "requiredTech": "TECH_MILITARY_0",
         "cost": 40,
-        "uniques": [ "New [Military] units start with [15] Experience [in this city]" ],
+        "uniques": [ "New [Military] units start with [15] XP [in this city]" ],
         "civilopediaText": [ { "text": "BUILDING_TRAINING_COMPOUND_PEDIA" } ]
     },
     {
         "name": "BUILDING_CAPITAL_SHIPYARD",
         "requiredTech": "TECH_MILITARY_2",
         "cost": 50,
-        "uniques": [ "New [Military] units start with [15] Experience [in this city]" ],
+        "uniques": [ "New [Military] units start with [15] XP [in this city]" ],
         "civilopediaText": [ { "text": "BUILDING_CAPITAL_SHIPYARD_PEDIA" } ]
     },
     {
         "name": "BUILDING_SQUADRON_FACTORY",
         "requiredTech": "TECH_INDUSTRY_2",
         "cost": 40,
-        "uniques": [ "New [Military] units start with [15] Experience [in this city]" ],
+        "uniques": [ "New [Military] units start with [15] XP [in this city]" ],
         "civilopediaText": [ { "text": "BUILDING_SQUADRON_FACTORY_PEDIA" } ]
     },
     {
@@ -149,14 +149,14 @@
         "name": "BUILDING_AIR_DEFENSE_NETWORK",
         "requiredTech": "TECH_INDUSTRY_2",
         "cost": 120,
-        "uniques": [ "New [Military] units start with [15] Experience [in this city]" ],
+        "uniques": [ "New [Military] units start with [15] XP [in this city]" ],
         "civilopediaText": [ { "text": "BUILDING_AIR_DEFENSE_NETWORK_PEDIA" } ]
     },
     {
         "name": "BUILDING_STAR_FORTRESS",
         "requiredTech": "TECH_INDUSTRY_3",
         "cost": 80,
-        "uniques": [ "New [Military] units start with [15] Experience [in this city]" ],
+        "uniques": [ "New [Military] units start with [15] XP [in this city]" ],
         "civilopediaText": [ { "text": "BUILDING_STAR_FORTRESS_PEDIA" } ]
     },
     {
@@ -169,7 +169,7 @@
     {
         "name": "BUILDING_SCHOOL_OF_ZEALOTS",
         "cost": 35,
-        "uniques": [ "New [Military] units start with [15] Experience [in this city]", "Only available <after adopting [VALUE_POWER]>" ],
+        "uniques": [ "New [Military] units start with [15] XP [in this city]", "Only available <after adopting [VALUE_POWER]>" ],
         "civilopediaText": [ { "text": "BUILDING_SCHOOL_OF_ZEALOTS_PEDIA" } ]
     },
     {
@@ -196,7 +196,7 @@
     },
     {
         "name": "BUILDING_MILITARY_ACADEMY",
-        "uniques": [ "Unbuildable", "New [Military] units start with [15] Experience [in this city]" ],
+        "uniques": [ "Unbuildable", "New [Military] units start with [15] XP [in this city]" ],
         "civilopediaText": [ { "text": "BUILDING_MILITARY_ACADEMY_PEDIA" } ]
     },
     {
@@ -213,7 +213,6 @@
         },
         "uniques": [
             "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
-            "Must be next to [TILE_PLANET]",
             "Cannot be purchased",
             "Unsellable",
             "Never destroyed when the city is captured"
@@ -229,7 +228,6 @@
             "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
             "Only available <if [BUILDING_COLONY_1] is constructed>",
             "Will not be displayed in Civilopedia",
-            "Must be next to [TILE_PLANET]",
             "Cannot be purchased",
             "Unsellable",
             "Never destroyed when the city is captured"
@@ -245,7 +243,6 @@
             "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
             "Only available <if [BUILDING_COLONY_2] is constructed>",
             "Will not be displayed in Civilopedia",
-            "Must be next to [TILE_PLANET]",
             "Cannot be purchased",
             "Unsellable",
             "Never destroyed when the city is captured"
@@ -261,7 +258,6 @@
             "Creates a [IMPROVEMENT_COLONY] improvement on a specific tile",
             "Only available <if [BUILDING_COLONY_3] is constructed>",
             "Will not be displayed in Civilopedia",
-            "Must be next to [TILE_PLANET]",
             "Cannot be purchased",
             "Unsellable",
             "Never destroyed when the city is captured"

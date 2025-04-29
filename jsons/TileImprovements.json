@@ -19,10 +19,6 @@
         "name": "IMPROVEMENT_COLONY",
         "terrainsCanBeBuiltOn": [ "TILE_PLANET" ],
         "turnsToBuild": 1,
-        "uniques": [
-            "Tile provides yield without assigned population",
-            "Must be next to [TILE_PLANET]",
-            "Removes removable features when built"
-        ]
+        "uniques": [ "Tile provides yield without assigned population", "Removes removable features when built" ]
     }
 ]
