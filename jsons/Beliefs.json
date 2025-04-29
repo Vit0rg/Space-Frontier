@@ -26,7 +26,7 @@
 		"name": "VALUE_POWER",
 		"type": "Pantheon",
 		"uniques": [
-			"New [Military] units start with [2] Experience [in your cities]",
+			"New [Military] units start with [2] XP [in your cities]",
 			"Only available <after discovering [TECH_MILITARY_3]>"
 		],
 		"civilopediaText": [
