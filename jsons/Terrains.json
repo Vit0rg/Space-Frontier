@@ -1,6 +1,6 @@
 [
     {
-        "name": "Grassland",
+        "name": "TILE_SPACE",
         "type": "Land",
         "overrideStats": true,
         "RGB": [ 150, 75, 0 ],
@@ -17,7 +17,7 @@
             "Has an elevation of [1] for visibility calculations",
             "Occurs in groups around high elevations",
             "Every [22] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Becomes [Grassland] when adjacent to [TILE_ORBIT] <with [0] to [0] neighboring [TILE_STAR] tiles>",
+            "Becomes [TILE_SPACE] when adjacent to [TILE_ORBIT] <with [0] to [0] neighboring [TILE_STAR] tiles>",
             "[+1] to Fertility for Map Generation"
         ],
         "movementCost": 2
@@ -25,17 +25,18 @@
     {
         "name": "TILE_STAR",
         "type": "Land",
+		"gold": 0,
+		"production": 20,
         "movementCost": 1,
         "overrideStats": true,
         "defenceBonus": 0.25,
-        "impassable": false,
         "RGB": [ 255, 249, 23 ],
         "uniques": [
             "Considered [Desirable] when determining start locations",
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
             "Always Fertility [-2] for Map Generation",
-            "Becomes [Grassland] when adjacent to [TILE_STAR] <with [1] to [6] neighboring [TILE_STAR] tiles>"
+            "Becomes [TILE_SPACE] when adjacent to [TILE_STAR] <with [1] to [6] neighboring [TILE_STAR] tiles>"
         ]
     },
     {
@@ -43,7 +44,7 @@
         "type": "TerrainFeature",
         "impassable": true,
         "RGB": [ 89, 62, 102 ],
-        "occursOn": [ "Grassland" ],
+        "occursOn": [ "TILE_SPACE" ],
         "uniques": [
             "Vegetation",
             "Always Fertility [-1] for Map Generation",
@@ -59,7 +60,7 @@
         "unbuildable": true,
         "defenceBonus": 0.5,
         "RGB": [ 0, 0, 0 ],
-        "occursOn": [ "Grassland" ],
+        "occursOn": [ "TILE_SPACE" ],
         "uniques": [
             "Rough terrain",
             "Vegetation",
@@ -75,7 +76,7 @@
         "unbuildable": true,
         "defenceBonus": 0.25,
         "RGB": [ 0, 165, 80 ],
-        "occursOn": [ "Grassland" ],
+        "occursOn": [ "TILE_SPACE" ],
         "uniques": [
             "Rough terrain",
             "Vegetation",
@@ -110,6 +111,7 @@
     {
         "name": "TILE_PLANET",
         "type": "TerrainFeature",
+		"food": 20,
         "movementCost": 1,
         "occursOn": [ "TILE_ORBIT" ],
         "uniques": [ "Vegetation" ]
@@ -117,12 +119,12 @@
     {
         "name": "TILE_SUPERNOVA",
         "type": "NaturalWonder",
-        "occursOn": [ "Grassland" ],
+        "occursOn": [ "TILE_SPACE" ],
         "unbuildable": true,
         "RGB": [ 0, 0, 0 ],
         "uniques": [
             "Blocks line-of-sight from tiles at same elevation",
-            "Must be adjacent to [6] [Grassland] tiles",
+            "Must be adjacent to [6] [TILE_SPACE] tiles",
             "Neighboring tiles will convert to [TILE_DAMAGE_ZONE]",
             "Units ending their turn on this terrain take [100] damage"
         ]
@@ -130,12 +132,12 @@
     {
         "name": "TILE_BLACK_HOLE",
         "type": "NaturalWonder",
-        "occursOn": [ "Grassland" ],
+        "occursOn": [ "TILE_SPACE" ],
         "unbuildable": true,
         "RGB": [ 0, 0, 0 ],
         "uniques": [
             "Blocks line-of-sight from tiles at same elevation",
-            "Must be adjacent to [6] [Grassland] tiles",
+            "Must be adjacent to [6] [TILE_SPACE] tiles",
             "Neighboring tiles will convert to [TILE_GRAVITY_FIELD]",
             "Units ending their turn on this terrain take [100] damage"
         ]
