@@ -31,5 +31,5 @@
 	{
 		"name": "UNITCOMBAT_STARBASE",
 		"movementType": "Land" // DOMAIN_IMMOBILE
-	},
+	}
 ]
